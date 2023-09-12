@@ -1,0 +1,3127 @@
+ hostname is         dlt08.abaxnet
+ this is node-proc. number 0 running on node dlt08.abaxnet
+ the total number of node-proc. spawned is   1
+
+ ricc2 (dlt08.abaxnet) : TURBOMOLE V6.6( 19125 ) 27 May 2014 at 14:24:19
+ Copyright (C) 2014 TURBOMOLE GmbH, Karlsruhe
+
+
+    2023-02-28 10:44:36.541 
+
+
+
+                              R I C C 2 - PROGRAM
+
+                          the quantum chemistry groups
+                             at the universities in
+                           Karlsruhe, Bochum & Mainz
+                                   Germany
+
+
+
+   *-----------------------------------------------------------------------*
+   |                     program will use  1 thread(s)                     |
+   *-----------------------------------------------------------------------*
+
+
+              +--------------------------------------------------+
+              | Atomic coordinate, charge and isotop information |
+              +--------------------------------------------------+
+
+                    atomic coordinates            atom    charge  isotop
+         -1.09535506   -1.79599235    0.00000000    c      6.000     0
+         -3.18255956   -0.25752972    0.00000000    c      6.000     0
+         -2.93255235    2.36309777    0.00000000    c      6.000     0
+         -0.57697136    3.41479378    0.00000000    c      6.000     0
+          1.61804787    1.90286708    0.00000000    c      6.000     0
+          1.31841830   -0.75954938    0.00000000    c      6.000     0
+         -1.33975985   -3.81899887    0.00000000    h      1.000     0
+         -4.60958659    3.52505201    0.00000000    h      1.000     0
+         -0.36685494    5.44905375    0.00000000    h      1.000     0
+         -5.69342496   -1.37754937    0.00000000    n      7.000     0
+         -7.49541643    0.04831110    0.00000000    o      8.000     0
+         -5.85365480   -3.66739366    0.00000000    o      8.000     0
+          3.90639614    3.00403068    0.00000000    n      7.000     0
+          4.05403644    4.89326210    0.00000000    h      1.000     0
+          5.46358476    1.90375363    0.00000000    h      1.000     0
+          3.53937374   -2.41936920    0.00000000    c      6.000     0
+          5.71917482   -1.71426616    0.00000000    o      8.000     0
+          2.97132123   -4.88944578    0.00000000    o      8.000     0
+          4.55578261   -5.80412741    0.00000000    h      1.000     0
+ 
+       center of nuclear mass  :   -0.59021308   -0.57743846    0.00000000
+       center of nuclear charge:   -0.53074672   -0.52722430    0.00000000
+
+              +--------------------------------------------------+
+              |               basis set information              |
+              +--------------------------------------------------+
+
+              we will work with the 1s 3p 5d 7f 9g ... basis set
+              ...i.e. with spherical basis functions...
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c        7     52     37   def2-TZVPD   [6s3p3d1f|12s6p3d1f]
+    h        6     11      9   def2-TZVPD   [3s2p|5s2p]
+    n        2     52     37   def2-TZVPD   [6s3p3d1f|12s6p3d1f]
+    o        4     55     40   def2-TZVPD   [6s4p3d1f|12s7p3d1f]
+   ---------------------------------------------------------------------------
+   total:   19    754    547
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   74
+   total number of contracted shells         :  203
+   total number of cartesian basis functions :  625
+   total number of SCF-basis functions       :  547
+
+
+
+   =========================================================================
+
+
+     restricted closed shell calculation for the wavefunction models:
+               ADC(2)     - Algebraic Diagrammatic Construction to 2. Order (strict)
+
+
+     global parameters for ricc2 program:
+
+        hard restart (reuse of interm.) :  disabled
+        soft restart (reuse of vectors) :  disabled
+        threshold for vector function   :    0.100000E-06
+        convergence threshold energy    :    0.100000E-07
+        linear dependence threshold     :    0.100000E-13
+        global print level              :      1
+        maximum number of iterations    :   500
+        maximum number DIIS vectors     :    10
+        max. dim. of reduced space      :   100
+        core memory limit (MB)          :   500
+        disk space limit (MB)           :   none
+
+
+   =========================================================================
+     "cartesian on" in $drvopt is ignored by $ricc2
+
+    der. integral neglect threshold  :  0.10E-08
+    integral neglect threshold       :  0.53E-12
+    integral storage threshold THIZE :  0.10E-04
+    integral storage threshold THIME :         5
+
+
+                  +------------------------------------------+
+                  |     Auxiliary basis set information      |
+                  +------------------------------------------+
+
+              we will work with the 1s 3p 5d 7f 9g ... basis set
+              ...i.e. with spherical basis functions...
+
+   type   atoms  prim   cont   basis
+   ---------------------------------------------------------------------------
+    c        7     97     92   def2-TZVPD   [9s7p5d4f1g|9s7p6d4f1g]
+    h        6     32     24   def2-TZVPD   [5s3p2d|5s4p3d]
+    n        2     97     92   def2-TZVPD   [9s7p5d4f1g|9s7p6d4f1g]
+    o        4     97     92   def2-TZVPD   [9s7p5d4f1g|9s7p6d4f1g]
+   ---------------------------------------------------------------------------
+   total:   19   1453   1340
+   ---------------------------------------------------------------------------
+
+   total number of primitive shells          :   93
+   total number of contracted shells         :  398
+   total number of cartesian basis functions : 1651
+   total number of SCF-basis functions       : 1340
+
+
+ symmetry group of the molecule :   cs
+
+ the group has the following generators :
+   c1(z)
+   mirror plane sigma(xy)
+
+    2 symmetry operations found
+
+ there are 2 real representations :   a'   a"  
+
+ maximum number of shells which are related by symmetry :  1
+
+
+ The symmetry information takes   1 MB
+
+*---------------------------------------------------------------------*
+|      simplified algorithm for abelian symmetry will be applied      |
+*---------------------------------------------------------------------*
+  MOs are in ASCII format !
+
+
+ reading orbital data $scfmo  from file mos . 
+
+ orbital characterization : scfconv=7
+ 
+
+         --------------------------------------------------------------
+                   checking mo's by calculating trace(D*S)
+
+              number of electrons : 
+                 from trace(D*S)         :   94.000000000004
+                 from occupation numbers :   94.000000000000
+
+              molecular charge           :    0.000000000000
+         --------------------------------------------------------------
+
+ time elapsed for calculating density matrices :   0.025 sec
+ all orbitals will be active in the correlation treatment
+
+
+   Molecular Orbital Statistic:
+   ============================
+
+
+   --------------------------
+    irred. repres.:   a'   a"
+   --------------------------
+   frozen occupied:    0    0
+   active occupied:   39    8
+   active virtual :  336  164
+   frozen virtual :    0    0
+   --------------------------
+ 
+
+   -----------------------------
+   orbitals in total:
+   -----------------------------
+    frozen occupied :      0
+    active occupied :     47
+    active virtual  :    500
+    frozen virtual  :      0
+    all together    :    547
+   -----------------------------
+
+
+     time in riccmos       cpu:  0.19 sec    wall:  0.40 sec    ratio:  0.5
+
+     total memory allocated for calculation of (Q|P)**(-1/2) : 12 MiB
+
+
+     calculation of (P|Q) ...
+     time in lp2sym        cpu:  0.05 sec    wall:  0.05 sec    ratio:  1.0
+
+
+     calculation of the Cholesky decomposition of (P|Q)**(-1) ...
+     time in invmetri      cpu:  0.14 sec    wall:  0.22 sec    ratio:  0.6
+
+   threshold for RMS(d[D]) in SCF was     :  0.10E-07
+   integral neglect threshold             :  0.53E-12
+   derivative integral neglect threshold  :  0.10E-08
+
+
+ setting up bound for integral derivative estimation
+
+ increment for numerical differentiation : 0.00050000
+
+   =========================================================================
+
+     Energy of reference wave function is  -677.1079537955000
+     Maximum orbital residual is           0.9890449450319E-05
+
+
+     Number of symmetry-nonredundant auxiliary basis functions:     1340
+
+     Block lengths for integral files:
+        frozen occupied (BOI):        0 MiB
+        active occupied (BJI):        1 MiB
+        active virtual  (BAI):        6 MiB
+        frozen virtual  (BGI):        0 MiB
+               general  (BTI):        6 MiB
+
+   =========================================================================
+
+
+
+
+   **************************************************************************
+   *                                                                        *
+   *          OPTIMIZATION OF THE GROUND STATE CLUSTER AMPLITUDES           *
+   *                                                                        *
+   **************************************************************************
+
+
+   Iter.   MP2 energy       Norm(Omega)    Norm(t1)  Norm(t2)     cpu    wall
+   ...........................................................................
+    1   -679.7818145386    0.1913236432     0.00000   0.50389    2.06    2.49
+   ...........................................................................
+
+
+     time in total         cpu:  2 min  4 s  wall:  2 min 29 s  ratio:  0.8
+
+
+     **********************************************************************
+     *                                                                    *
+     *   RHF  energy                             :   -677.1079537955      *
+     *   MP2 correlation energy                  :     -2.6738607431      *
+     *                                                                    *
+     *   Final MP2 energy                        :   -679.7818145386      *
+     *                                                                    *
+     *   Norm of MP1 T2 amplitudes               :      0.5038898005      *
+     *                                                                    *
+     *   D1 diagnostic                           :      0.0584            *
+     *                                                                    *
+     **********************************************************************
+
+
+
+ **************************************************************
+ *                                                            *
+ *    OPTIMIZATION OF THE EXCITED STATE CLUSTER AMPLITUDES    *
+ *                                                            *
+ **************************************************************
+
+
+  preoptimize excitation energies/vectors using CCS:
+
+  ==================================================
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations: 15
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- guessed as rhs/(e_a-e_i) :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1      15         6.34     0.23E+00  (  7)
+      2      15         6.18     0.72E-01  (  6)
+      3      15         7.20     0.10E+00  ( 15)
+      4      15         6.11     0.42E-01  ( 12)
+      5      15         6.34     0.43E-01  ( 15)
+      6      12         5.31     0.20E-01  ( 13)
+  dimension of red. space became too large.
+  try internal restart...
+      7       8         3.44     0.94E-02  ( 13)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      8      15         6.02     0.94E-02  ( 13)
+      9       8         3.37     0.53E-02  ( 13)
+     10       6         3.36     0.31E-02  ( 15)
+     11       4         1.71     0.14E-02  ( 15)
+     12       2         0.93     0.74E-03  ( 15)
+    --------------------------------------------
+    converged in 12 iterations
+
+         Total time         56.36 minutes
+
+
+ ===========================================
+
+
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations: 15
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- guessed as rhs/(e_a-e_i) :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      1      15         6.24     0.48E-01  (  1)
+      2      15         7.59     0.23E-01  ( 12)
+      3      15         6.22     0.12E-01  ( 12)
+      4      15         6.88     0.19E+00  (  6)
+      5      15         5.98     0.18E+00  (  4)
+  dimension of red. space became too large.
+  try internal restart...
+      6      14         6.28     0.54E-01  (  1)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+      7      15         6.68     0.54E-01  (  1)
+      8      12         6.44     0.18E-01  (  1)
+      9       8         5.10     0.53E-02  (  4)
+     10       7         2.78     0.13E-01  ( 15)
+     11       6         2.44     0.23E-01  ( 15)
+     12       3         1.38     0.88E-02  ( 15)
+     13       3         1.28     0.33E-02  ( 15)
+     14       3         1.24     0.14E-02  ( 15)
+     15       2         0.94     0.12E-02  ( 14)
+     16       2         0.92     0.67E-03  ( 14)
+    --------------------------------------------
+    converged in 16 iterations
+
+         Total time         68.43 minutes
+
+
+ ===========================================
+
+
+
+
+ Note that this is the intermediate result of a preoptimization!
+ The convergence threshold was  0.1E-02 only!
+
+
+ +==================================================================+
+ | sym | multi | state |          CCS excitation energies           |
+ |     |       |       +--------------------------------------------+
+ |     |       |       |   Hartree    |     eV       |     cm-1     |
+ +==================================================================+
+ | a'  |   1   |   1   |    0.1941502 |      5.28310 |    42611.046 |
+ | a'  |   1   |   2   |    0.2014905 |      5.48283 |    44222.050 |
+ | a'  |   1   |   3   |    0.2493846 |      6.78610 |    54733.589 |
+ | a'  |   1   |   4   |    0.2608490 |      7.09806 |    57249.737 |
+ | a'  |   1   |   5   |    0.2767617 |      7.53107 |    60742.180 |
+ | a'  |   1   |   6   |    0.2831212 |      7.70412 |    62137.911 |
+ | a'  |   1   |   7   |    0.3131733 |      8.52188 |    68733.594 |
+ | a'  |   1   |   8   |    0.3269936 |      8.89795 |    71766.794 |
+ | a'  |   1   |   9   |    0.3415205 |      9.29324 |    74955.081 |
+ | a'  |   1   |  10   |    0.3450976 |      9.39058 |    75740.175 |
+ | a'  |   1   |  11   |    0.3463044 |      9.42342 |    76005.033 |
+ | a'  |   1   |  12   |    0.3565447 |      9.70207 |    78252.518 |
+ | a'  |   1   |  13   |    0.3599710 |      9.79531 |    79004.494 |
+ | a'  |   1   |  14   |    0.3640277 |      9.90570 |    79894.836 |
+ | a'  |   1   |  15   |    0.3648753 |      9.92876 |    80080.870 |
+ +-----+-------+-------+--------------+--------------+--------------+
+ | a"  |   1   |   1   |    0.1952601 |      5.31330 |    42854.645 |
+ | a"  |   1   |   2   |    0.2068546 |      5.62880 |    45399.346 |
+ | a"  |   1   |   3   |    0.2360209 |      6.42246 |    51800.598 |
+ | a"  |   1   |   4   |    0.2517342 |      6.85004 |    55249.279 |
+ | a"  |   1   |   5   |    0.2612763 |      7.10969 |    57343.513 |
+ | a"  |   1   |   6   |    0.2713447 |      7.38366 |    59553.276 |
+ | a"  |   1   |   7   |    0.2898295 |      7.88666 |    63610.227 |
+ | a"  |   1   |   8   |    0.2974021 |      8.09272 |    65272.216 |
+ | a"  |   1   |   9   |    0.3063378 |      8.33588 |    67233.386 |
+ | a"  |   1   |  10   |    0.3099562 |      8.43434 |    68027.533 |
+ | a"  |   1   |  11   |    0.3217514 |      8.75530 |    70616.274 |
+ | a"  |   1   |  12   |    0.3306696 |      8.99798 |    72573.595 |
+ | a"  |   1   |  13   |    0.3385023 |      9.21112 |    74292.670 |
+ | a"  |   1   |  14   |    0.3390610 |      9.22632 |    74415.294 |
+ | a"  |   1   |  15   |    0.3393560 |      9.23435 |    74480.042 |
+ +==================================================================+
+
+
+
+
+  preoptimize ADC(2) excitation energies/vectors using a quasi linear algorithm:
+  ==============================================================================
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations: 15
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  7.138231760284625E-002
+      1      15        48.87     0.83E-01  (  5)
+ ...adapted threshold to:  7.525412660561182E-002
+      2       3         9.51     0.71E-01  (  9)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.210153573894757E-002
+      3      15        47.20     0.65E-01  ( 10)
+      4      15        46.39     0.45E-01  ( 11)
+ ...adapted threshold to:  2.583569662031826E-002
+      5      14        59.20     0.91E-01  ( 14)
+ ...adapted threshold to:  2.734938237423912E-002
+      6       6        19.14     0.40E-01  (  7)
+ ...adapted threshold to:  2.734945407236339E-002
+      7       1         4.12     0.21E-01  ( 15)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  9.313131336475877E-003
+      8      15        46.36     0.21E-01  ( 15)
+      9       8        24.83     0.36E-01  ( 15)
+ ...adapted threshold to:  2.188866238735609E-002
+     10       6        18.82     0.68E-01  ( 12)
+ ...adapted threshold to:  2.269603489326116E-002
+     11       4        12.66     0.28E-01  ( 10)
+ ...adapted threshold to:  2.272632584334000E-002
+     12       1         3.69     0.11E-01  ( 10)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  2.313939248561880E-003
+     13      15        55.70     0.11E-01  ( 11)
+     14       5        19.79     0.47E-02  (  9)
+     15       5        15.23     0.41E-02  ( 15)
+     16       3         9.27     0.47E-02  ( 15)
+     17       1         3.70     0.90E-02  ( 15)
+     18       1         3.73     0.17E-01  ( 15)
+     19       1         3.65     0.17E-01  ( 15)
+ ...adapted threshold to:  2.491578871751998E-003
+     20       1         3.69     0.13E-01  ( 15)
+ ...adapted threshold to:  2.810031285474524E-003
+     21       1         3.62     0.89E-02  ( 15)
+ ...adapted threshold to:  2.961958388396913E-003
+     22       1         3.66     0.61E-02  ( 15)
+ ...adapted threshold to:  3.038715529256442E-003
+     23       1         3.72     0.42E-02  ( 15)
+ ...adapted threshold to:  3.072975952199741E-003
+     24       1         3.69     0.32E-02  ( 15)
+ ...adapted threshold to:  3.091824296633516E-003
+     25       1         3.65     0.27E-02  ( 14)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.000000000000000E-003
+     26      15        48.80     0.11E-02  ( 15)
+     27       1         3.63     0.19E-02  ( 15)
+     28       1         3.62     0.19E-02  ( 15)
+     29       1         3.62     0.13E-02  ( 15)
+     30       1         3.65     0.96E-03  (  8)
+    --------------------------------------------
+    converged in 30 iterations
+
+         Total time        537.27 minutes
+
+
+ ===========================================
+
+
+
+
+ ======== LINEAR CC RESPONSE SOLVER ========
+
+    threshold for convergence: 0.10E-02
+    maximum number of simultaneous jacoby matrix transformations: 15
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  4.926367112108895E-002
+      1      15        41.79     0.94E-01  (  1)
+ ...adapted threshold to:  6.086651837130608E-002
+      2       5        14.33     0.84E-01  (  7)
+ ...adapted threshold to:  6.086940306306027E-002
+      3       1         3.44     0.88E-01  ( 14)
+ ...adapted threshold to:  6.086942386316407E-002
+      4       2         6.03     0.45E-01  ( 12)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.178218005358916E-002
+      5      15        42.53     0.42E-01  ( 12)
+      6      15        41.37     0.69E-01  ( 12)
+ ...adapted threshold to:  2.058143720666727E-002
+      7       7        19.50     0.87E-01  ( 12)
+ ...adapted threshold to:  3.188824306701246E-002
+      8       6        16.16     0.89E-01  (  8)
+ ...adapted threshold to:  3.189227863027888E-002
+      9       3         8.40     0.32E-01  (  6)
+ ...adapted threshold to:  3.189230634667159E-002
+     10       1         3.34     0.20E-01  ( 14)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.952222919953525E-002
+     11      15        40.98     0.24E-01  ( 13)
+     12       1         3.38     0.34E-01  ( 13)
+ dabs(Rj-Ri):           1           6  9.545776080536483E-002
+ dabs(Ij+Ii):           1           6  2.517432051438218E-004
+ dabs(Rj-Ri):           2           6  7.108827064858386E-002
+ dabs(Ij+Ii):           2           6  2.517432051438218E-004
+ dabs(Rj-Ri):           3           6  4.803504724612881E-002
+ dabs(Ij+Ii):           3           6  2.517432051438218E-004
+ dabs(Rj-Ri):           4           6  2.042220966543409E-002
+ dabs(Ij+Ii):           4           6  2.517432051438218E-004
+ dabs(Rj-Ri):           5           6  1.376837884337589E-002
+ dabs(Ij+Ii):           5           6  2.517432051438218E-004
+ dabs(Rj-Ri):           7           6  0.000000000000000E+000
+ dabs(Ij+Ii):           7           6  0.000000000000000E+000
+ dabs(Rj-Ri):           8           6  3.976278577894399E-003
+ dabs(Ij+Ii):           8           6  2.517432051438218E-004
+ dabs(Rj-Ri):           9           6  1.237791748653599E-002
+ dabs(Ij+Ii):           9           6  2.517432051438218E-004
+ dabs(Rj-Ri):          10           6  2.375801427617935E-002
+ dabs(Ij+Ii):          10           6  2.517432051438218E-004
+ dabs(Rj-Ri):          11           6  4.278357814943501E-002
+ dabs(Ij+Ii):          11           6  2.517432051438218E-004
+ dabs(Rj-Ri):          12           6  4.463587694766541E-002
+ dabs(Ij+Ii):          12           6  2.517432051438218E-004
+ dabs(Rj-Ri):          13           6  4.573366291422104E-002
+ dabs(Ij+Ii):          13           6  2.517432051438218E-004
+ dabs(Rj-Ri):          14           6  4.898435508674970E-002
+ dabs(Ij+Ii):          14           6  2.517432051438218E-004
+ dabs(Rj-Ri):          15           6  6.477304152093533E-002
+ dabs(Ij+Ii):          15           6  2.517432051438218E-004
+ dabs(Rj-Ri):          16           6  8.207417311676279E-002
+ dabs(Ij+Ii):          16           6  2.517432051438218E-004
+ dabs(Rj-Ri):          17           6  0.178427958130353     
+ dabs(Ij+Ii):          17           6  2.517432051438218E-004
+ dabs(Rj-Ri):          18           6  0.994083231046960     
+ dabs(Ij+Ii):          18           6  2.517432051438218E-004
+ overlap matrix for complex pair:
+
+              1             2
+ 
+    1     0.54288132    0.56408116
+    2     0.56408116    0.65007976
+ real eigenvalues of metric:
+
+              1
+ 
+    1     0.02985859
+    2     1.16310249
+ eigenvectors of metric:
+
+              1             2
+ 
+    1     0.73979535    0.67283195
+    2    -0.67283195    0.73979535
+ inverse square root of overlap matrix:
+
+              1             2
+ 
+    1     3.58705820   -2.41906402
+    2    -2.41906402    3.12733729
+ recalculated overlap matrix for complex pair:
+
+              1             2
+ 
+    1     1.00000000    0.00000000
+    2     0.00000000    1.00000000
+ dabs(Rj-Ri):           1           7  9.545776080536483E-002
+ dabs(Ij+Ii):           1           7  2.517432051438218E-004
+ dabs(Rj-Ri):           2           7  7.108827064858386E-002
+ dabs(Ij+Ii):           2           7  2.517432051438218E-004
+ dabs(Rj-Ri):           3           7  4.803504724612881E-002
+ dabs(Ij+Ii):           3           7  2.517432051438218E-004
+ dabs(Rj-Ri):           4           7  2.042220966543409E-002
+ dabs(Ij+Ii):           4           7  2.517432051438218E-004
+ dabs(Rj-Ri):           5           7  1.376837884337589E-002
+ dabs(Ij+Ii):           5           7  2.517432051438218E-004
+ dabs(Rj-Ri):           6           7  0.000000000000000E+000
+ dabs(Ij+Ii):           6           7  0.000000000000000E+000
+ dabs(Rj-Ri):           8           7  3.976278577894399E-003
+ dabs(Ij+Ii):           8           7  2.517432051438218E-004
+ dabs(Rj-Ri):           9           7  1.237791748653599E-002
+ dabs(Ij+Ii):           9           7  2.517432051438218E-004
+ dabs(Rj-Ri):          10           7  2.375801427617935E-002
+ dabs(Ij+Ii):          10           7  2.517432051438218E-004
+ dabs(Rj-Ri):          11           7  4.278357814943501E-002
+ dabs(Ij+Ii):          11           7  2.517432051438218E-004
+ dabs(Rj-Ri):          12           7  4.463587694766541E-002
+ dabs(Ij+Ii):          12           7  2.517432051438218E-004
+ dabs(Rj-Ri):          13           7  4.573366291422104E-002
+ dabs(Ij+Ii):          13           7  2.517432051438218E-004
+ dabs(Rj-Ri):          14           7  4.898435508674970E-002
+ dabs(Ij+Ii):          14           7  2.517432051438218E-004
+ dabs(Rj-Ri):          15           7  6.477304152093533E-002
+ dabs(Ij+Ii):          15           7  2.517432051438218E-004
+ dabs(Rj-Ri):          16           7  8.207417311676279E-002
+ dabs(Ij+Ii):          16           7  2.517432051438218E-004
+ dabs(Rj-Ri):          17           7  0.178427958130353     
+ dabs(Ij+Ii):          17           7  2.517432051438218E-004
+ dabs(Rj-Ri):          18           7  0.994083231046960     
+ dabs(Ij+Ii):          18           7  2.517432051438218E-004
+ overlap matrix for complex pair:
+
+              1             2
+ 
+    1     1.00000000    0.00000000
+    2     0.00000000    1.00000000
+ real eigenvalues of metric:
+
+              1
+ 
+    1     1.00000000
+    2     1.00000000
+ eigenvectors of metric:
+
+              1             2
+ 
+    1     0.70860596    0.70560441
+    2    -0.70560441    0.70860596
+ inverse square root of overlap matrix:
+
+              1             2
+ 
+    1     1.00000000   -0.00000000
+    2    -0.00000000    1.00000000
+ recalculated overlap matrix for complex pair:
+
+              1             2
+ 
+    1     1.00000000    0.00000000
+    2     0.00000000    1.00000000
+ warning> found low lying complex root...
+ eigenvalues (imaginary parts) in redeig:
+
+              1
+ 
+    1     0.00000000
+    2     0.00000000
+    3     0.00000000
+    4     0.00000000
+    5     0.00000000
+    6    -0.00025174
+    7     0.00025174
+    8     0.00000000
+    9     0.00000000
+   10     0.00000000
+   11     0.00000000
+   12     0.00000000
+   13     0.00000000
+   14     0.00000000
+   15     0.00000000
+   16     0.00000000
+   17     0.00000000
+   18     0.00000000
+ eigenvalues (real parts) in redeig:
+
+              1
+ 
+    1     0.13924726
+    2     0.16361675
+    3     0.18666997
+    4     0.21428281
+    5     0.22093664
+    6     0.23470502
+    7     0.23470502
+    8     0.23868130
+    9     0.24708293
+   10     0.25846303
+   11     0.27748860
+   12     0.27934089
+   13     0.28043868
+   14     0.28368937
+   15     0.29947806
+   16     0.31677919
+   17     0.41313298
+   18     1.22878825
+     13       2         5.94     0.31E-01  ( 12)
+ dabs(Rj-Ri):           1           6  9.532688515505375E-002
+ dabs(Ij+Ii):           1           6  5.227881013161258E-004
+ dabs(Rj-Ri):           2           6  7.093560856217898E-002
+ dabs(Ij+Ii):           2           6  5.227881013161258E-004
+ dabs(Rj-Ri):           3           6  4.788292910075817E-002
+ dabs(Ij+Ii):           3           6  5.227881013161258E-004
+ dabs(Rj-Ri):           4           6  2.026975852444612E-002
+ dabs(Ij+Ii):           4           6  5.227881013161258E-004
+ dabs(Rj-Ri):           5           6  1.363247493495159E-002
+ dabs(Ij+Ii):           5           6  5.227881013161258E-004
+ dabs(Rj-Ri):           7           6  0.000000000000000E+000
+ dabs(Ij+Ii):           7           6  0.000000000000000E+000
+ dabs(Rj-Ri):           8           6  4.128718084332961E-003
+ dabs(Ij+Ii):           8           6  5.227881013161258E-004
+ dabs(Rj-Ri):           9           6  1.253012681893542E-002
+ dabs(Ij+Ii):           9           6  5.227881013161258E-004
+ dabs(Rj-Ri):          10           6  2.390990607633187E-002
+ dabs(Ij+Ii):          10           6  5.227881013161258E-004
+ dabs(Rj-Ri):          11           6  4.291957060874602E-002
+ dabs(Ij+Ii):          11           6  5.227881013161258E-004
+ dabs(Rj-Ri):          12           6  4.343376704328750E-002
+ dabs(Ij+Ii):          12           6  5.227881013161258E-004
+ dabs(Rj-Ri):          13           6  4.588444890251375E-002
+ dabs(Ij+Ii):          13           6  5.227881013161258E-004
+ dabs(Rj-Ri):          14           6  4.913493067862362E-002
+ dabs(Ij+Ii):          14           6  5.227881013161258E-004
+ dabs(Rj-Ri):          15           6  6.484737327128054E-002
+ dabs(Ij+Ii):          15           6  5.227881013161258E-004
+ dabs(Rj-Ri):          16           6  6.814432201551324E-002
+ dabs(Ij+Ii):          16           6  5.227881013161258E-004
+ dabs(Rj-Ri):          17           6  9.857615130949976E-002
+ dabs(Ij+Ii):          17           6  5.227881013161258E-004
+ dabs(Rj-Ri):          18           6  0.282290413746486     
+ dabs(Ij+Ii):          18           6  5.227881013161258E-004
+ dabs(Rj-Ri):          19           6  0.994400433972311     
+ dabs(Ij+Ii):          19           6  5.227881013161258E-004
+ dabs(Rj-Ri):          20           6   2.03290460945715     
+ dabs(Ij+Ii):          20           6  5.227881013161258E-004
+ overlap matrix for complex pair:
+
+              1             2
+ 
+    1     0.48950416    0.25903989
+    2     0.25903989    0.62980858
+ real eigenvalues of metric:
+
+              1
+ 
+    1     0.29128537
+    2     0.82802737
+ eigenvectors of metric:
+
+              1             2
+ 
+    1     0.79416626    0.60770054
+    2    -0.60770054    0.79416626
+ inverse square root of overlap matrix:
+
+              1             2
+ 
+    1     1.57443560   -0.36384482
+    2    -0.36384482    1.37736542
+ recalculated overlap matrix for complex pair:
+
+              1             2
+ 
+    1     1.00000000    0.00000000
+    2     0.00000000    1.00000000
+ dabs(Rj-Ri):           1           7  9.532688515505375E-002
+ dabs(Ij+Ii):           1           7  5.227881013161258E-004
+ dabs(Rj-Ri):           2           7  7.093560856217898E-002
+ dabs(Ij+Ii):           2           7  5.227881013161258E-004
+ dabs(Rj-Ri):           3           7  4.788292910075817E-002
+ dabs(Ij+Ii):           3           7  5.227881013161258E-004
+ dabs(Rj-Ri):           4           7  2.026975852444612E-002
+ dabs(Ij+Ii):           4           7  5.227881013161258E-004
+ dabs(Rj-Ri):           5           7  1.363247493495159E-002
+ dabs(Ij+Ii):           5           7  5.227881013161258E-004
+ dabs(Rj-Ri):           6           7  0.000000000000000E+000
+ dabs(Ij+Ii):           6           7  0.000000000000000E+000
+ dabs(Rj-Ri):           8           7  4.128718084332961E-003
+ dabs(Ij+Ii):           8           7  5.227881013161258E-004
+ dabs(Rj-Ri):           9           7  1.253012681893542E-002
+ dabs(Ij+Ii):           9           7  5.227881013161258E-004
+ dabs(Rj-Ri):          10           7  2.390990607633187E-002
+ dabs(Ij+Ii):          10           7  5.227881013161258E-004
+ dabs(Rj-Ri):          11           7  4.291957060874602E-002
+ dabs(Ij+Ii):          11           7  5.227881013161258E-004
+ dabs(Rj-Ri):          12           7  4.343376704328750E-002
+ dabs(Ij+Ii):          12           7  5.227881013161258E-004
+ dabs(Rj-Ri):          13           7  4.588444890251375E-002
+ dabs(Ij+Ii):          13           7  5.227881013161258E-004
+ dabs(Rj-Ri):          14           7  4.913493067862362E-002
+ dabs(Ij+Ii):          14           7  5.227881013161258E-004
+ dabs(Rj-Ri):          15           7  6.484737327128054E-002
+ dabs(Ij+Ii):          15           7  5.227881013161258E-004
+ dabs(Rj-Ri):          16           7  6.814432201551324E-002
+ dabs(Ij+Ii):          16           7  5.227881013161258E-004
+ dabs(Rj-Ri):          17           7  9.857615130949976E-002
+ dabs(Ij+Ii):          17           7  5.227881013161258E-004
+ dabs(Rj-Ri):          18           7  0.282290413746486     
+ dabs(Ij+Ii):          18           7  5.227881013161258E-004
+ dabs(Rj-Ri):          19           7  0.994400433972311     
+ dabs(Ij+Ii):          19           7  5.227881013161258E-004
+ dabs(Rj-Ri):          20           7   2.03290460945715     
+ dabs(Ij+Ii):          20           7  5.227881013161258E-004
+ overlap matrix for complex pair:
+
+              1             2
+ 
+    1     1.00000000    0.00000000
+    2     0.00000000    1.00000000
+ real eigenvalues of metric:
+
+              1
+ 
+    1     1.00000000
+    2     1.00000000
+ eigenvectors of metric:
+
+              1             2
+ 
+    1     0.91600900    0.40115771
+    2    -0.40115771    0.91600900
+ inverse square root of overlap matrix:
+
+              1             2
+ 
+    1     1.00000000   -0.00000000
+    2    -0.00000000    1.00000000
+ recalculated overlap matrix for complex pair:
+
+              1             2
+ 
+    1     1.00000000    0.00000000
+    2     0.00000000    1.00000000
+ warning> found low lying complex root...
+ eigenvalues (imaginary parts) in redeig:
+
+              1
+ 
+    1     0.00000000
+    2     0.00000000
+    3     0.00000000
+    4     0.00000000
+    5     0.00000000
+    6    -0.00052279
+    7     0.00052279
+    8     0.00000000
+    9     0.00000000
+   10     0.00000000
+   11     0.00000000
+   12     0.00000000
+   13     0.00000000
+   14     0.00000000
+   15     0.00000000
+   16     0.00000000
+   17     0.00000000
+   18     0.00000000
+   19     0.00000000
+   20     0.00000000
+ eigenvalues (real parts) in redeig:
+
+              1
+ 
+    1     0.13922568
+    2     0.16361695
+    3     0.18666963
+    4     0.21428280
+    5     0.22092009
+    6     0.23455256
+    7     0.23455256
+    8     0.23868128
+    9     0.24708269
+   10     0.25846247
+   11     0.27747213
+   12     0.27798633
+   13     0.28043701
+   14     0.28368749
+   15     0.29939994
+   16     0.30269688
+   17     0.33312871
+   18     0.51684298
+   19     1.22895300
+   20     2.26745717
+     14       2         5.92     0.19E-01  ( 12)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  4.654393073477953E-003
+     15      15        42.79     0.19E-01  ( 12)
+ ...adapted threshold to:  4.654999006083432E-003
+     16       5        14.27     0.24E-01  ( 12)
+ ...adapted threshold to:  4.658847549665113E-003
+     17       4        10.99     0.60E-01  ( 15)
+ ...adapted threshold to:  1.496439614869755E-002
+     18       2         5.89     0.59E-01  ( 15)
+ ...adapted threshold to:  1.569098186849538E-002
+     19       2         5.90     0.29E-01  ( 11)
+ ...adapted threshold to:  1.569172154107146E-002
+     20       2         5.97     0.16E-01  ( 11)
+ ...adapted threshold to:  1.569192183449880E-002
+     21       1         3.35     0.10E-01  ( 11)
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+    Iter  #Vectors  time (min)    max. residual 
+    --------------------------------------------
+ threshold for this macro iteration:  1.000000000000000E-003
+     22      15        41.41     0.10E-01  ( 11)
+     23       9        25.23     0.63E-02  ( 11)
+     24       5        13.98     0.56E-02  ( 11)
+     25       3         8.33     0.46E-02  ( 13)
+     26       3         8.41     0.40E-02  ( 13)
+     27       4        11.00     0.26E-02  ( 13)
+     28       2         5.94     0.25E-02  ( 13)
+     29       2         5.89     0.18E-02  ( 13)
+     30       1         3.41     0.13E-02  ( 13)
+     31       1         3.58     0.70E-03  ( 13)
+    --------------------------------------------
+    converged in 31 iterations
+
+         Total time        469.52 minutes
+
+
+ ===========================================
+
+
+
+
+ Note that this is the intermediate result of a preoptimization!
+ The convergence threshold was  0.1E-02 only!
+
+
+ +==================================================================+
+ | sym | multi | state |          ADC(2) excitation energies        |
+ |     |       |       +--------------------------------------------+
+ |     |       |       |   Hartree    |     eV       |     cm-1     |
+ +==================================================================+
+ | a'  |   1   |   1   |    0.1499007 |      4.07901 |    32899.401 |
+ | a'  |   1   |   2   |    0.1600042 |      4.35394 |    35116.869 |
+ | a'  |   1   |   3   |    0.2063549 |      5.61520 |    45289.659 |
+ | a'  |   1   |   4   |    0.2161878 |      5.88277 |    47447.727 |
+ | a'  |   1   |   5   |    0.2244601 |      6.10787 |    49263.303 |
+ | a'  |   1   |   6   |    0.2307099 |      6.27793 |    50634.963 |
+ | a'  |   1   |   7   |    0.2536851 |      6.90312 |    55677.445 |
+ | a'  |   1   |   8   |    0.2587844 |      7.04188 |    56796.621 |
+ | a'  |   1   |   9   |    0.2662459 |      7.24492 |    58434.228 |
+ | a'  |   1   |  10   |    0.2686896 |      7.31142 |    58970.558 |
+ | a'  |   1   |  11   |    0.2698289 |      7.34242 |    59220.593 |
+ | a'  |   1   |  12   |    0.2726576 |      7.41939 |    59841.421 |
+ | a'  |   1   |  13   |    0.2814150 |      7.65769 |    61763.459 |
+ | a'  |   1   |  14   |    0.2880881 |      7.83927 |    63228.021 |
+ | a'  |   1   |  15   |    0.2886108 |      7.85350 |    63342.738 |
+ +-----+-------+-------+--------------+--------------+--------------+
+ | a"  |   1   |   1   |    0.1392214 |      3.78841 |    30555.556 |
+ | a"  |   1   |   2   |    0.1636436 |      4.45297 |    35915.613 |
+ | a"  |   1   |   3   |    0.1867156 |      5.08079 |    40979.346 |
+ | a"  |   1   |   4   |    0.2142902 |      5.83113 |    47031.258 |
+ | a"  |   1   |   5   |    0.2171121 |      5.90792 |    47650.589 |
+ | a"  |   1   |   6   |    0.2331035 |      6.34307 |    51160.315 |
+ | a"  |   1   |   7   |    0.2340435 |      6.36865 |    51366.614 |
+ | a"  |   1   |   8   |    0.2385402 |      6.49101 |    52353.528 |
+ | a"  |   1   |   9   |    0.2469177 |      6.71897 |    54192.166 |
+ | a"  |   1   |  10   |    0.2582092 |      7.02623 |    56670.371 |
+ | a"  |   1   |  11   |    0.2669105 |      7.26301 |    58580.091 |
+ | a"  |   1   |  12   |    0.2771600 |      7.54191 |    60829.587 |
+ | a"  |   1   |  13   |    0.2795888 |      7.60800 |    61362.659 |
+ | a"  |   1   |  14   |    0.2801747 |      7.62394 |    61491.230 |
+ | a"  |   1   |  15   |    0.2837106 |      7.72016 |    62267.278 |
+ +==================================================================+
+
+
+
+
+
+  solve for ADC(2) excitation energies/vectors using a DIIS algorithm:
+  =================================================================
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a' 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+
+ ========= DIIS CC RESPONSE SOLVER =========
+
+    threshold for convergence:0.10E-05
+    max. nb. of DIIS vectors :      10
+    maximum number of simultaneous jacoby matrix transformations: 15
+
+    Iter  #Vectors  time (min)   residual
+    --------------------------------------
+      1      15        45.01     0.64E-03  ( 14)    0.65E-02
+      2      15        46.10     0.57E-03  ( 14)    0.57E-02
+      3      15        46.54     0.44E-03  ( 14)    0.59E-02
+      4      15        51.38     0.35E-03  ( 14)    0.89E-02
+      5      15        45.54     0.26E-03  ( 14)    0.64E-02
+      6      13        39.72     0.19E-03  ( 14)    0.57E-02
+      7      12        36.09     0.13E-03  ( 14)    0.69E-02
+      8      10        31.60     0.10E-03  ( 14)    0.59E-02
+      9       9        26.82     0.84E-04  ( 14)    0.61E-02
+     10       9        26.46     0.67E-04  ( 14)    0.57E-02
+     11       8        23.32     0.49E-04  ( 14)    0.58E-02
+     12       5        15.03     0.40E-04  ( 15)    0.57E-02
+     13       3         9.24     0.35E-04  ( 15)    0.57E-02
+     14       3         9.22     0.28E-04  ( 15)    0.59E-02
+     15       3         9.22     0.23E-04  ( 15)    0.57E-02
+     16       3         9.21     0.18E-04  ( 15)    0.58E-02
+     17       2         6.45     0.14E-04  ( 15)    0.57E-02
+     18       2         6.45     0.10E-04  ( 15)    0.59E-02
+     19       2         6.44     0.87E-05  ( 15)    0.57E-02
+     20       2         6.44     0.70E-05  ( 15)    0.58E-02
+     21       2         6.46     0.62E-05  ( 14)    0.57E-02
+     22       2         6.44     0.51E-05  ( 14)    0.57E-02
+     23       2         6.46     0.44E-05  ( 14)    0.57E-02
+     24       2         6.45     0.35E-05  ( 14)    0.57E-02
+     25       2         6.54     0.26E-05  ( 14)    0.57E-02
+     26       2         6.45     0.22E-05  ( 14)    0.57E-02
+     27       2         6.49     0.17E-05  ( 14)    0.57E-02
+     28       1         3.62     0.13E-05  ( 14)    0.57E-02
+     29       1         3.62     0.11E-05  ( 14)    0.57E-02
+     30       1         3.65     0.75E-06  ( 14)    0.57E-02
+    --------------------------------------
+    converged in  30 iterations
+
+   Total time        552.48 minutes
+
+
+ ===========================================
+
+
+                                                
+     summary of start vectors generation:
+     -------------------------------------------
+     type of solution vectors      : RE0
+     symmetry                      : a" 
+     number of vectors requested   :    15
+     number of vectors generated   :    15
+       -- restarted from file      :    15
+     -------------------------------------------
+                                                
+
+
+ ========= DIIS CC RESPONSE SOLVER =========
+
+    threshold for convergence:0.10E-05
+    max. nb. of DIIS vectors :      10
+    maximum number of simultaneous jacoby matrix transformations: 15
+
+    Iter  #Vectors  time (min)   residual
+    --------------------------------------
+      1      15        40.85     0.84E-03  (  5)    0.14E+01
+      2      15        41.64     0.34E-03  (  5)    0.45E-01
+      3      15        41.52     0.22E-03  ( 13)    0.30E-01
+      4      15        42.06     0.18E-03  ( 13)    0.19E-01
+      5      15        42.72     0.16E-03  ( 13)    0.83E-02
+      6      14        39.84     0.15E-03  ( 13)    0.82E-02
+      7      13        35.96     0.13E-03  ( 13)    0.11E-01
+      8      10        27.65     0.13E-03  ( 13)    0.86E-02
+      9       9        24.89     0.11E-03  ( 13)    0.81E-02
+     10       6        16.51     0.94E-04  ( 15)    0.62E-02
+     11       5        13.77     0.94E-04  ( 15)    0.44E-02
+     12       5        13.74     0.94E-04  ( 15)    0.40E-02
+     13       5        13.70     0.88E-04  ( 15)    0.30E-02
+     14       5        13.69     0.87E-04  ( 15)    0.33E-02
+     15       4        11.03     0.87E-04  ( 15)    0.31E-02
+     16       4        10.90     0.87E-04  ( 15)    0.33E-02
+     17       3         8.40     0.87E-04  ( 15)    0.31E-02
+     18       3         8.44     0.88E-04  ( 15)    0.31E-02
+     19       3         8.38     0.88E-04  ( 15)    0.32E-02
+     20       3         8.39     0.86E-04  ( 15)    0.33E-02
+     21       2         5.93     0.90E-04  ( 15)    0.32E-02
+     22       1         3.35     0.93E-04  ( 15)    0.35E-02
+     23       1         3.36     0.93E-04  ( 15)    0.43E-02
+     24       1         3.35     0.87E-04  ( 15)    0.35E-02
+     25       1         3.35     0.90E-04  ( 15)    0.40E-02
+     26       1         3.39     0.88E-04  ( 15)    0.36E-02
+     27       1         3.48     0.86E-04  ( 15)    0.37E-02
+     28       1         3.37     0.81E-04  ( 15)    0.32E-02
+     29       1         3.34     0.72E-04  ( 15)    0.32E-02
+     30       1         3.37     0.59E-04  ( 15)    0.34E-02
+     31       1         3.33     0.39E-04  ( 15)    0.35E-02
+     32       1         3.35     0.28E-04  ( 15)    0.33E-02
+     33       1         3.36     0.22E-04  ( 15)    0.34E-02
+     34       1         3.35     0.15E-04  ( 15)    0.34E-02
+     35       1         3.36     0.10E-04  ( 15)    0.35E-02
+     36       1         3.35     0.72E-05  ( 15)    0.35E-02
+     37       1         3.37     0.47E-05  ( 15)    0.35E-02
+     38       1         3.35     0.30E-05  ( 15)    0.35E-02
+     39       1         3.37     0.20E-05  ( 15)    0.35E-02
+     40       1         3.39     0.11E-05  ( 15)    0.35E-02
+     41       1         3.35     0.72E-06  ( 15)    0.35E-02
+    --------------------------------------
+    converged in  41 iterations
+
+   Total time        537.31 minutes
+
+
+ ===========================================
+
+
+
+
+
+ +================================================================================+
+ | sym | multi | state |          ADC(2) excitation energies    |  %t1   |  %t2   |
+ |     |       |       +----------------------------------------+--------+--------+
+ |     |       |       |   Hartree    |    eV      |    cm-1    |    %   |    %   |
+ +================================================================================+
+ | a'  |   1   |   1   |    0.1499001 |    4.07899 |  32899.267 |  89.27 |  10.73 |
+ | a'  |   1   |   2   |    0.1600054 |    4.35397 |  35117.119 |  88.27 |  11.73 |
+ | a'  |   1   |   3   |    0.2063563 |    5.61524 |  45289.966 |  88.74 |  11.26 |
+ | a'  |   1   |   4   |    0.2161888 |    5.88280 |  47447.958 |  89.39 |  10.61 |
+ | a'  |   1   |   5   |    0.2244636 |    6.10797 |  49264.068 |  88.54 |  11.46 |
+ | a'  |   1   |   6   |    0.2307041 |    6.27778 |  50633.690 |  89.43 |  10.57 |
+ | a'  |   1   |   7   |    0.2536354 |    6.90177 |  55666.539 |  84.80 |  15.20 |
+ | a'  |   1   |   8   |    0.2587770 |    7.04168 |  56794.993 |  88.62 |  11.38 |
+ | a'  |   1   |   9   |    0.2662457 |    7.24491 |  58434.170 |  88.08 |  11.92 |
+ | a'  |   1   |  10   |    0.2686918 |    7.31148 |  58971.029 |  86.96 |  13.04 |
+ | a'  |   1   |  11   |    0.2698933 |    7.34417 |  59234.738 |  87.02 |  12.98 |
+ | a'  |   1   |  12   |    0.2726726 |    7.41980 |  59844.715 |  88.07 |  11.93 |
+ | a'  |   1   |  13   |    0.2814062 |    7.65745 |  61761.532 |  87.82 |  12.18 |
+ | a'  |   1   |  14   |    0.2880580 |    7.83846 |  63221.432 |  89.23 |  10.77 |
+ | a'  |   1   |  15   |    0.2885886 |    7.85290 |  63337.877 |  87.17 |  12.83 |
+ +-----+-------+-------+--------------+------------+------------+--------+--------+
+ | a"  |   1   |   1   |    0.1392181 |    3.78832 |  30554.836 |  89.71 |  10.29 |
+ | a"  |   1   |   2   |    0.1636480 |    4.45309 |  35916.592 |  90.10 |   9.90 |
+ | a"  |   1   |   3   |    0.1867181 |    5.08086 |  40979.887 |  89.48 |  10.52 |
+ | a"  |   1   |   4   |    0.2142715 |    5.83062 |  47027.164 |  91.68 |   8.32 |
+ | a"  |   1   |   5   |    0.2167820 |    5.89894 |  47578.142 |  83.20 |  16.80 |
+ | a"  |   1   |   6   |    0.2329892 |    6.33996 |  51135.212 |  84.19 |  15.81 |
+ | a"  |   1   |   7   |    0.2341037 |    6.37029 |  51379.833 |  84.05 |  15.95 |
+ | a"  |   1   |   8   |    0.2385417 |    6.49105 |  52353.850 |  91.36 |   8.64 |
+ | a"  |   1   |   9   |    0.2469201 |    6.71904 |  54192.690 |  91.13 |   8.87 |
+ | a"  |   1   |  10   |    0.2582085 |    7.02621 |  56670.209 |  90.69 |   9.31 |
+ | a"  |   1   |  11   |    0.2668238 |    7.26064 |  58561.051 |  83.29 |  16.71 |
+ | a"  |   1   |  12   |    0.2771563 |    7.54181 |  60828.766 |  91.44 |   8.56 |
+ | a"  |   1   |  13   |    0.2796849 |    7.61061 |  61383.734 |  86.50 |  13.50 |
+ | a"  |   1   |  14   |    0.2801829 |    7.62416 |  61493.028 |  90.80 |   9.20 |
+ | a"  |   1   |  15   |    0.2836553 |    7.71865 |  62255.135 |  89.80 |  10.20 |
+ +================================================================================+
+
+
+       Energy:     0.1499001 H      4.07899 eV    32899.267 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    1    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   10 a"     385       |   0.92943      86.4   |
+     |    7 a"      46       |    9 a"     384       |   0.21151       4.5   |
+     |    8 a"      47       |    9 a"     384       |  -0.14588       2.1   |
+     |    8 a"      47       |   11 a"     386       |  -0.10844       1.2   |
+     |    7 a"      46       |   12 a"     387       |  -0.10036       1.0   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95169
+
+
+       Energy:     0.1600054 H      4.35397 eV    35117.119 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    2    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |    9 a"     384       |   0.94374      89.1   |
+     |    7 a"      46       |   10 a"     385       |  -0.13837       1.9   |
+     |    8 a"      47       |   10 a"     385       |   0.12798       1.6   |
+     |    8 a"      47       |   12 a"     387       |  -0.11751       1.4   |
+     |    8 a"      47       |   11 a"     386       |  -0.10146       1.0   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95027
+
+
+       Energy:     0.2063563 H      5.61524 eV    45289.966 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    3    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    7 a"      46       |    9 a"     384       |  -0.77226      59.6   |
+     |    6 a"      45       |    9 a"     384       |   0.38960      15.2   |
+     |    8 a"      47       |   12 a"     387       |   0.20093       4.0   |
+     |    8 a"      47       |   13 a"     388       |  -0.16064       2.6   |
+     |    8 a"      47       |   10 a"     385       |   0.15734       2.5   |
+     |    8 a"      47       |   14 a"     389       |  -0.15294       2.3   |
+     |    7 a"      46       |   10 a"     385       |   0.14620       2.1   |
+     |    7 a"      46       |   12 a"     387       |   0.13574       1.8   |
+     |    5 a"      44       |   10 a"     385       |   0.13127       1.7   |
+     |    6 a"      45       |   10 a"     385       |   0.07845       0.6   |
+     |    8 a"      47       |   16 a"     391       |   0.07561       0.6   |
+     |    5 a"      44       |    9 a"     384       |  -0.06387       0.4   |
+     |    8 a"      47       |   17 a"     392       |   0.06354       0.4   |
+     |    8 a"      47       |    9 a"     384       |   0.06184       0.4   |
+     |    6 a"      45       |   13 a"     388       |  -0.05808       0.3   |
+     |    6 a"      45       |   12 a"     387       |   0.05717       0.3   |
+     |    6 a"      45       |   11 a"     386       |  -0.05659       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95318
+
+
+       Energy:     0.2161888 H      5.88280 eV    47447.958 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    4    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    6 a"      45       |    9 a"     384       |   0.60096      36.1   |
+     |    8 a"      47       |   12 a"     387       |  -0.41752      17.4   |
+     |    7 a"      46       |   10 a"     385       |  -0.34514      11.9   |
+     |    8 a"      47       |   13 a"     388       |   0.31191       9.7   |
+     |    8 a"      47       |   14 a"     389       |   0.29432       8.7   |
+     |    8 a"      47       |   16 a"     391       |  -0.14878       2.2   |
+     |    5 a"      44       |    9 a"     384       |   0.10805       1.2   |
+     |    6 a"      45       |   10 a"     385       |   0.09242       0.9   |
+     |    6 a"      45       |   13 a"     388       |  -0.08869       0.8   |
+     |    6 a"      45       |   11 a"     386       |  -0.08629       0.7   |
+     |    7 a"      46       |   13 a"     388       |   0.08246       0.7   |
+     |    7 a"      46       |   12 a"     387       |  -0.07526       0.6   |
+     |    6 a"      45       |   12 a"     387       |   0.07415       0.5   |
+     |    6 a"      45       |   14 a"     389       |  -0.07405       0.5   |
+     |    8 a"      47       |    9 a"     384       |  -0.07227       0.5   |
+     |    6 a"      45       |   16 a"     391       |   0.06545       0.4   |
+     |    8 a"      47       |   17 a"     392       |  -0.06295       0.4   |
+     |    6 a"      45       |   17 a"     392       |  -0.05719       0.3   |
+     |    5 a"      44       |   10 a"     385       |  -0.05670       0.3   |
+     |    8 a"      47       |   11 a"     386       |   0.05545       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.94264
+
+
+       Energy:     0.2244636 H      6.10797 eV    49264.068 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    5    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    6 a"      45       |    9 a"     384       |   0.56020      31.4   |
+     |    7 a"      46       |    9 a"     384       |   0.48678      23.7   |
+     |    8 a"      47       |   12 a"     387       |   0.31609      10.0   |
+     |    7 a"      46       |   10 a"     385       |   0.29282       8.6   |
+     |    8 a"      47       |   14 a"     389       |  -0.20929       4.4   |
+     |    5 a"      44       |   10 a"     385       |  -0.20734       4.3   |
+     |    8 a"      47       |   13 a"     388       |  -0.19167       3.7   |
+     |    8 a"      47       |   10 a"     385       |  -0.14097       2.0   |
+     |    6 a"      45       |   10 a"     385       |   0.11719       1.4   |
+     |    8 a"      47       |   16 a"     391       |   0.11373       1.3   |
+     |    6 a"      45       |   11 a"     386       |  -0.08022       0.6   |
+     |    7 a"      46       |   11 a"     386       |  -0.07634       0.6   |
+     |    6 a"      45       |   13 a"     388       |  -0.07145       0.5   |
+     |    5 a"      44       |    9 a"     384       |  -0.06998       0.5   |
+     |    6 a"      45       |   14 a"     389       |  -0.06983       0.5   |
+     |    7 a"      46       |   12 a"     387       |  -0.06269       0.4   |
+     |    6 a"      45       |   12 a"     387       |   0.05880       0.3   |
+     |    6 a"      45       |   16 a"     391       |   0.05611       0.3   |
+     |    5 a"      44       |   12 a"     387       |   0.05427       0.3   |
+     |    8 a"      47       |   19 a"     394       |  -0.04854       0.2   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.94949
+
+
+       Energy:     0.2307041 H      6.27778 eV    50633.690 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    6    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    7 a"      46       |   10 a"     385       |   0.81541      66.5   |
+     |    8 a"      47       |   12 a"     387       |  -0.33065      10.9   |
+     |    8 a"      47       |   14 a"     389       |   0.23295       5.4   |
+     |    8 a"      47       |   13 a"     388       |   0.21486       4.6   |
+     |    6 a"      45       |   10 a"     385       |  -0.14155       2.0   |
+     |    8 a"      47       |    9 a"     384       |   0.09635       0.9   |
+     |    7 a"      46       |   11 a"     386       |  -0.08456       0.7   |
+     |    8 a"      47       |   17 a"     392       |  -0.07452       0.6   |
+     |    7 a"      46       |   13 a"     388       |  -0.07385       0.5   |
+     |   39 a'      39       |   40 a'      48       |  -0.06500       0.4   |
+     |    8 a"      47       |   16 a"     391       |  -0.05878       0.3   |
+     |    5 a"      44       |    9 a"     384       |   0.05831       0.3   |
+     |    5 a"      44       |   12 a"     387       |  -0.05788       0.3   |
+     |    3 a"      42       |    9 a"     384       |   0.05524       0.3   |
+     |    3 a"      42       |   12 a"     387       |  -0.05254       0.3   |
+     |    8 a"      47       |   19 a"     394       |   0.05121       0.3   |
+     |    7 a"      46       |   15 a"     390       |  -0.04828       0.2   |
+     |    5 a"      44       |   14 a"     389       |   0.04608       0.2   |
+     |    8 a"      47       |   27 a"     402       |  -0.04515       0.2   |
+     |    7 a"      46       |    9 a"     384       |  -0.04454       0.2   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95346
+
+
+       Energy:     0.2536354 H      6.90177 eV    55666.539 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    7    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    6 a"      45       |   10 a"     385       |   0.93916      88.2   |
+     |    6 a"      45       |    9 a"     384       |  -0.17577       3.1   |
+     |    5 a"      44       |    9 a"     384       |  -0.11810       1.4   |
+     |    7 a"      46       |   10 a"     385       |   0.09919       1.0   |
+     |    6 a"      45       |   11 a"     386       |  -0.09628       0.9   |
+     |    8 a"      47       |   17 a"     392       |  -0.07302       0.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95130
+
+
+       Energy:     0.2587770 H      7.04168 eV    56794.993 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    8    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    4 a"      43       |   10 a"     385       |   0.56245      31.6   |
+     |   39 a'      39       |   40 a'      48       |   0.56121      31.5   |
+     |    5 a"      44       |   10 a"     385       |   0.35193      12.4   |
+     |   39 a'      39       |   41 a'      49       |  -0.14515       2.1   |
+     |    4 a"      43       |   17 a"     392       |   0.13822       1.9   |
+     |    4 a"      43       |   13 a"     388       |  -0.12076       1.5   |
+     |   39 a'      39       |   53 a'      61       |  -0.11264       1.3   |
+     |   39 a'      39       |   56 a'      64       |  -0.11206       1.3   |
+     |   37 a'      37       |   40 a'      48       |   0.10765       1.2   |
+     |   36 a'      36       |   40 a'      48       |   0.10403       1.1   |
+     |    2 a"      41       |   10 a"     385       |   0.08693       0.8   |
+     |    4 a"      43       |   15 a"     390       |  -0.07977       0.6   |
+     |    4 a"      43       |    9 a"     384       |  -0.07937       0.6   |
+     |    4 a"      43       |   14 a"     389       |  -0.07617       0.6   |
+     |    3 a"      42       |   10 a"     385       |  -0.07360       0.5   |
+     |   39 a'      39       |   50 a'      58       |   0.07247       0.5   |
+     |    6 a"      45       |   10 a"     385       |   0.07119       0.5   |
+     |    4 a"      43       |   12 a"     387       |   0.07045       0.5   |
+     |   39 a'      39       |   45 a'      53       |   0.06947       0.5   |
+     |   39 a'      39       |   48 a'      56       |   0.06913       0.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.91390
+
+
+       Energy:     0.2662457 H      7.24491 eV    58434.170 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:    9    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   39 a'      39       |   40 a'      48       |  -0.59128      35.0   |
+     |    5 a"      44       |   10 a"     385       |   0.39987      16.0   |
+     |    4 a"      43       |   10 a"     385       |   0.35508      12.6   |
+     |    8 a"      47       |   17 a"     392       |   0.24585       6.0   |
+     |    5 a"      44       |    9 a"     384       |   0.22735       5.2   |
+     |    7 a"      46       |   12 a"     387       |   0.13732       1.9   |
+     |    7 a"      46       |    9 a"     384       |   0.11637       1.4   |
+     |    8 a"      47       |   16 a"     391       |  -0.10952       1.2   |
+     |   39 a'      39       |   56 a'      64       |   0.10688       1.1   |
+     |    7 a"      46       |   14 a"     389       |  -0.10197       1.0   |
+     |    8 a"      47       |   11 a"     386       |   0.09944       1.0   |
+     |    7 a"      46       |   13 a"     388       |  -0.09649       0.9   |
+     |   36 a'      36       |   40 a'      48       |  -0.09637       0.9   |
+     |   37 a'      37       |   40 a'      48       |  -0.08821       0.8   |
+     |   39 a'      39       |   53 a'      61       |   0.08035       0.6   |
+     |    8 a"      47       |   15 a"     390       |  -0.07728       0.6   |
+     |    8 a"      47       |   14 a"     389       |  -0.07576       0.6   |
+     |    4 a"      43       |    9 a"     384       |  -0.07528       0.6   |
+     |   39 a'      39       |   41 a'      49       |   0.07481       0.6   |
+     |    8 a"      47       |   13 a"     388       |  -0.07054       0.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.88461
+
+
+       Energy:     0.2686918 H      7.31148 eV    58971.029 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:   10    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    5 a"      44       |    9 a"     384       |   0.75886      57.6   |
+     |    5 a"      44       |   10 a"     385       |  -0.29625       8.8   |
+     |    8 a"      47       |   17 a"     392       |   0.25197       6.3   |
+     |   39 a'      39       |   40 a'      48       |   0.24044       5.8   |
+     |    8 a"      47       |   11 a"     386       |   0.19666       3.9   |
+     |    6 a"      45       |   10 a"     385       |   0.13201       1.7   |
+     |    8 a"      47       |   13 a"     388       |  -0.12813       1.6   |
+     |    5 a"      44       |   12 a"     387       |  -0.11336       1.3   |
+     |   38 a'      38       |   42 a'      50       |   0.08754       0.8   |
+     |    8 a"      47       |   18 a"     393       |  -0.08594       0.7   |
+     |    7 a"      46       |   10 a"     385       |   0.07529       0.6   |
+     |    8 a"      47       |   16 a"     391       |  -0.07166       0.5   |
+     |    8 a"      47       |   15 a"     390       |  -0.06902       0.5   |
+     |    8 a"      47       |   14 a"     389       |  -0.06741       0.5   |
+     |   38 a'      38       |   41 a'      49       |   0.06623       0.4   |
+     |   38 a'      38       |   40 a'      48       |   0.06320       0.4   |
+     |    8 a"      47       |   21 a"     396       |   0.06049       0.4   |
+     |    4 a"      43       |   10 a"     385       |  -0.05884       0.3   |
+     |    8 a"      47       |   10 a"     385       |   0.05793       0.3   |
+     |   37 a'      37       |   40 a'      48       |   0.05679       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.92755
+
+
+       Energy:     0.2698933 H      7.34417 eV    59234.738 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:   11    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   38 a'      38       |   40 a'      48       |   0.48998      24.0   |
+     |   38 a'      38       |   42 a'      50       |   0.47733      22.8   |
+     |   38 a'      38       |   43 a'      51       |  -0.38212      14.6   |
+     |    4 a"      43       |   10 a"     385       |   0.28564       8.2   |
+     |   38 a'      38       |   41 a'      49       |   0.26395       7.0   |
+     |   39 a'      39       |   40 a'      48       |  -0.14363       2.1   |
+     |   38 a'      38       |   48 a'      56       |  -0.13949       1.9   |
+     |   38 a'      38       |   60 a'      68       |   0.12747       1.6   |
+     |    5 a"      44       |   10 a"     385       |  -0.12682       1.6   |
+     |    8 a"      47       |   17 a"     392       |  -0.11552       1.3   |
+     |   38 a'      38       |   47 a'      55       |  -0.11041       1.2   |
+     |    7 a"      46       |   12 a"     387       |  -0.10912       1.2   |
+     |   38 a'      38       |   54 a'      62       |  -0.09782       1.0   |
+     |    7 a"      46       |   13 a"     388       |   0.09182       0.8   |
+     |    8 a"      47       |   11 a"     386       |  -0.08270       0.7   |
+     |   38 a'      38       |   49 a'      57       |  -0.07936       0.6   |
+     |    7 a"      46       |   14 a"     389       |   0.07729       0.6   |
+     |   38 a'      38       |   45 a'      53       |  -0.06734       0.5   |
+     |   38 a'      38       |   65 a'      73       |   0.06186       0.4   |
+     |   38 a'      38       |   44 a'      52       |   0.05986       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.92412
+
+
+       Energy:     0.2726726 H      7.41980 eV    59844.715 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:   12    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    4 a"      43       |   10 a"     385       |  -0.39419      15.5   |
+     |    7 a"      46       |   12 a"     387       |   0.31763      10.1   |
+     |    5 a"      44       |   10 a"     385       |   0.30616       9.4   |
+     |    7 a"      46       |   13 a"     388       |  -0.26710       7.1   |
+     |    5 a"      44       |    9 a"     384       |  -0.24208       5.9   |
+     |    8 a"      47       |   17 a"     392       |   0.23929       5.7   |
+     |    7 a"      46       |   14 a"     389       |  -0.22736       5.2   |
+     |   38 a'      38       |   40 a'      48       |   0.22260       5.0   |
+     |   38 a'      38       |   42 a'      50       |   0.20967       4.4   |
+     |    7 a"      46       |    9 a"     384       |   0.18386       3.4   |
+     |   39 a'      39       |   40 a'      48       |   0.17377       3.0   |
+     |   38 a'      38       |   43 a'      51       |  -0.16999       2.9   |
+     |    8 a"      47       |   11 a"     386       |   0.16914       2.9   |
+     |    7 a"      46       |   16 a"     391       |   0.15620       2.4   |
+     |    6 a"      45       |    9 a"     384       |   0.12144       1.5   |
+     |    8 a"      47       |   12 a"     387       |  -0.12083       1.5   |
+     |   38 a'      38       |   41 a'      49       |   0.12015       1.4   |
+     |    8 a"      47       |   16 a"     391       |  -0.11718       1.4   |
+     |    3 a"      42       |   10 a"     385       |   0.09637       0.9   |
+     |    4 a"      43       |   13 a"     388       |   0.08234       0.7   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.90190
+
+
+       Energy:     0.2814062 H      7.65745 eV    61761.532 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:   13    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   11 a"     386       |   0.53951      29.1   |
+     |    5 a"      44       |   10 a"     385       |  -0.43883      19.3   |
+     |    5 a"      44       |    9 a"     384       |  -0.41056      16.9   |
+     |    8 a"      47       |   17 a"     392       |   0.29610       8.8   |
+     |    4 a"      43       |   10 a"     385       |   0.23222       5.4   |
+     |    5 a"      44       |   11 a"     386       |   0.16985       2.9   |
+     |    8 a"      47       |   12 a"     387       |  -0.13028       1.7   |
+     |    8 a"      47       |   18 a"     393       |  -0.12321       1.5   |
+     |    8 a"      47       |   10 a"     385       |   0.11387       1.3   |
+     |    8 a"      47       |   16 a"     391       |  -0.11311       1.3   |
+     |    8 a"      47       |   13 a"     388       |  -0.10940       1.2   |
+     |    7 a"      46       |   17 a"     392       |   0.08909       0.8   |
+     |    7 a"      46       |   11 a"     386       |   0.08208       0.7   |
+     |    8 a"      47       |   20 a"     395       |   0.07835       0.6   |
+     |    7 a"      46       |    9 a"     384       |  -0.07316       0.5   |
+     |    3 a"      42       |   10 a"     385       |  -0.06977       0.5   |
+     |    5 a"      44       |   17 a"     392       |   0.06506       0.4   |
+     |    8 a"      47       |   15 a"     390       |  -0.06307       0.4   |
+     |    5 a"      44       |   12 a"     387       |   0.06266       0.4   |
+     |    8 a"      47       |   21 a"     396       |   0.05954       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.93926
+
+
+       Energy:     0.2880580 H      7.83846 eV    63221.432 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:   14    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   11 a"     386       |   0.58224      33.9   |
+     |    5 a"      44       |   10 a"     385       |   0.40804      16.6   |
+     |    7 a"      46       |   12 a"     387       |  -0.34755      12.1   |
+     |    7 a"      46       |   13 a"     388       |   0.26420       7.0   |
+     |    7 a"      46       |   14 a"     389       |   0.26394       7.0   |
+     |    4 a"      43       |   10 a"     385       |  -0.19880       4.0   |
+     |    8 a"      47       |   12 a"     387       |   0.14723       2.2   |
+     |    7 a"      46       |   11 a"     386       |   0.10934       1.2   |
+     |    7 a"      46       |   17 a"     392       |  -0.09977       1.0   |
+     |    7 a"      46       |   16 a"     391       |  -0.09945       1.0   |
+     |    8 a"      47       |   17 a"     392       |  -0.08689       0.8   |
+     |   39 a'      39       |   41 a'      49       |  -0.08592       0.7   |
+     |    8 a"      47       |   15 a"     390       |   0.08592       0.7   |
+     |    8 a"      47       |    9 a"     384       |   0.08461       0.7   |
+     |    8 a"      47       |   19 a"     394       |  -0.08426       0.7   |
+     |    7 a"      46       |   10 a"     385       |   0.07927       0.6   |
+     |    8 a"      47       |   16 a"     391       |   0.07678       0.6   |
+     |   37 a'      37       |   40 a'      48       |   0.07520       0.6   |
+     |    8 a"      47       |   13 a"     388       |  -0.07015       0.5   |
+     |    5 a"      44       |    9 a"     384       |   0.06494       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.92231
+
+
+       Energy:     0.2885886 H      7.85290 eV    63337.877 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a'              state:   15    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   37 a'      37       |   40 a'      48       |  -0.50156      25.2   |
+     |   37 a'      37       |   42 a'      50       |  -0.44205      19.5   |
+     |   37 a'      37       |   43 a'      51       |   0.34009      11.6   |
+     |   39 a'      39       |   41 a'      49       |   0.29433       8.7   |
+     |   39 a'      39       |   43 a'      51       |  -0.24490       6.0   |
+     |   37 a'      37       |   41 a'      49       |  -0.24327       5.9   |
+     |   39 a'      39       |   42 a'      50       |   0.17814       3.2   |
+     |    8 a"      47       |   11 a"     386       |   0.16769       2.8   |
+     |   37 a'      37       |   48 a'      56       |   0.12339       1.5   |
+     |   37 a'      37       |   47 a'      55       |   0.11845       1.4   |
+     |   37 a'      37       |   60 a'      68       |  -0.10938       1.2   |
+     |   39 a'      39       |   40 a'      48       |   0.10881       1.2   |
+     |   37 a'      37       |   54 a'      62       |   0.08836       0.8   |
+     |   37 a'      37       |   49 a'      57       |   0.06738       0.5   |
+     |   37 a'      37       |   44 a'      52       |  -0.06525       0.4   |
+     |   39 a'      39       |   60 a'      68       |   0.06337       0.4   |
+     |    5 a"      44       |    9 a"     384       |   0.06191       0.4   |
+     |    8 a"      47       |   17 a"     392       |  -0.06074       0.4   |
+     |   37 a'      37       |   53 a'      61       |   0.06022       0.4   |
+     |    8 a"      47       |   16 a"     391       |   0.05960       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.91666
+
+
+       Energy:     0.1392181 H      3.78832 eV    30554.836 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    1    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   38 a'      38       |    9 a"     384       |   0.88250      77.9   |
+     |   38 a'      38       |   14 a"     389       |  -0.21786       4.7   |
+     |   38 a'      38       |   13 a"     388       |  -0.18713       3.5   |
+     |   38 a'      38       |   16 a"     391       |   0.18393       3.4   |
+     |   38 a'      38       |   10 a"     385       |   0.16165       2.6   |
+     |   38 a'      38       |   11 a"     386       |  -0.15953       2.5   |
+     |   38 a'      38       |   17 a"     392       |  -0.12773       1.6   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.96301
+
+
+       Energy:     0.1636480 H      4.45309 eV    35916.592 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    2    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   37 a'      37       |    9 a"     384       |   0.82604      68.2   |
+     |   39 a'      39       |    9 a"     384       |  -0.30074       9.0   |
+     |   37 a'      37       |   14 a"     389       |  -0.19813       3.9   |
+     |   37 a'      37       |   13 a"     388       |  -0.16882       2.8   |
+     |   37 a'      37       |   16 a"     391       |   0.16422       2.7   |
+     |   37 a'      37       |   10 a"     385       |   0.14872       2.2   |
+     |   37 a'      37       |   11 a"     386       |  -0.14750       2.2   |
+     |   37 a'      37       |   17 a"     392       |  -0.11545       1.3   |
+     |   37 a'      37       |   12 a"     387       |   0.09396       0.9   |
+     |   36 a'      36       |    9 a"     384       |   0.09330       0.9   |
+     |   39 a'      39       |   14 a"     389       |   0.06650       0.4   |
+     |   35 a'      35       |    9 a"     384       |   0.06558       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95097
+
+
+       Energy:     0.1867181 H      5.08086 eV    40979.887 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    3    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   39 a'      39       |   10 a"     385       |   0.85237      72.7   |
+     |   39 a'      39       |   17 a"     392       |   0.25094       6.3   |
+     |   39 a'      39       |   13 a"     388       |  -0.19948       4.0   |
+     |   37 a'      37       |   10 a"     385       |   0.15788       2.5   |
+     |   39 a'      39       |    9 a"     384       |  -0.14753       2.2   |
+     |   36 a'      36       |   10 a"     385       |   0.13217       1.7   |
+     |   39 a'      39       |   15 a"     390       |  -0.12150       1.5   |
+     |   39 a'      39       |   12 a"     387       |   0.11915       1.4   |
+     |   39 a'      39       |   14 a"     389       |  -0.11663       1.4   |
+     |   36 a'      36       |   17 a"     392       |   0.07223       0.5   |
+     |   39 a'      39       |   21 a"     396       |   0.06933       0.5   |
+     |   37 a'      37       |   17 a"     392       |   0.06834       0.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95072
+
+
+       Energy:     0.2142715 H      5.83062 eV    47027.164 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    4    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   40 a'      48       |   0.68171      46.5   |
+     |    8 a"      47       |   41 a'      49       |   0.61119      37.4   |
+     |    8 a"      47       |   43 a'      51       |  -0.15362       2.4   |
+     |    8 a"      47       |   56 a'      64       |  -0.12936       1.7   |
+     |    8 a"      47       |   44 a'      52       |  -0.12804       1.6   |
+     |    5 a"      44       |   41 a'      49       |   0.11678       1.4   |
+     |    5 a"      44       |   40 a'      48       |   0.10908       1.2   |
+     |    8 a"      47       |   59 a'      67       |   0.10031       1.0   |
+     |    8 a"      47       |   46 a'      54       |  -0.09358       0.9   |
+     |    8 a"      47       |   45 a'      53       |   0.07132       0.5   |
+     |    8 a"      47       |   42 a'      50       |  -0.07120       0.5   |
+     |    8 a"      47       |   63 a'      71       |  -0.06876       0.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95424
+
+
+       Energy:     0.2167820 H      5.89894 eV    47578.142 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    5    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   38 a'      38       |   10 a"     385       |   0.96479      93.1   |
+     |   38 a'      38       |    9 a"     384       |  -0.17024       2.9   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95980
+
+
+       Energy:     0.2329892 H      6.33996 eV    51135.212 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    6    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   37 a'      37       |   10 a"     385       |  -0.76561      58.6   |
+     |   39 a'      39       |    9 a"     384       |   0.42189      17.8   |
+     |   37 a'      37       |    9 a"     384       |   0.29159       8.5   |
+     |   39 a'      39       |   10 a"     385       |   0.27792       7.7   |
+     |   39 a'      39       |   12 a"     387       |  -0.15826       2.5   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95145
+
+
+       Energy:     0.2341037 H      6.37029 eV    51379.833 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    7    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   39 a'      39       |    9 a"     384       |   0.77621      60.3   |
+     |   37 a'      37       |   10 a"     385       |   0.54031      29.2   |
+     |   39 a'      39       |   12 a"     387       |  -0.18471       3.4   |
+     |   37 a'      37       |    9 a"     384       |   0.16047       2.6   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95430
+
+
+       Energy:     0.2385417 H      6.49105 eV    52353.850 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    8    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   43 a'      51       |  -0.53128      28.2   |
+     |    8 a"      47       |   41 a'      49       |  -0.48825      23.8   |
+     |    8 a"      47       |   40 a'      48       |   0.38035      14.5   |
+     |    8 a"      47       |   42 a'      50       |   0.33141      11.0   |
+     |    8 a"      47       |   45 a'      53       |   0.31023       9.6   |
+     |    8 a"      47       |   44 a'      52       |   0.15173       2.3   |
+     |    5 a"      44       |   41 a'      49       |  -0.11246       1.3   |
+     |    8 a"      47       |   52 a'      60       |   0.10239       1.0   |
+     |    7 a"      46       |   40 a'      48       |   0.08591       0.7   |
+     |    8 a"      47       |   58 a'      66       |  -0.08537       0.7   |
+     |    8 a"      47       |   59 a'      67       |  -0.07642       0.6   |
+     |    8 a"      47       |   60 a'      68       |   0.06778       0.5   |
+     |    8 a"      47       |   66 a'      74       |   0.06462       0.4   |
+     |    5 a"      44       |   45 a'      53       |   0.05889       0.3   |
+     |    8 a"      47       |   53 a'      61       |  -0.05817       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95368
+
+
+       Energy:     0.2469201 H      6.71904 eV    54192.690 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:    9    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   42 a'      50       |   0.78682      61.9   |
+     |    8 a"      47       |   41 a'      49       |   0.37542      14.1   |
+     |    8 a"      47       |   43 a'      51       |   0.16991       2.9   |
+     |    8 a"      47       |   46 a'      54       |   0.15728       2.5   |
+     |    8 a"      47       |   45 a'      53       |   0.15396       2.4   |
+     |    8 a"      47       |   40 a'      48       |  -0.15182       2.3   |
+     |    8 a"      47       |   44 a'      52       |   0.13491       1.8   |
+     |    8 a"      47       |   47 a'      55       |  -0.10571       1.1   |
+     |    8 a"      47       |   63 a'      71       |  -0.10366       1.1   |
+     |    5 a"      44       |   42 a'      50       |   0.10281       1.1   |
+     |    8 a"      47       |   55 a'      63       |  -0.10185       1.0   |
+     |    8 a"      47       |   59 a'      67       |  -0.09933       1.0   |
+     |    7 a"      46       |   40 a'      48       |  -0.08300       0.7   |
+     |    5 a"      44       |   40 a'      48       |  -0.07214       0.5   |
+     |    8 a"      47       |   58 a'      66       |   0.06808       0.5   |
+     |    8 a"      47       |   64 a'      72       |  -0.06659       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95247
+
+
+       Energy:     0.2582085 H      7.02621 eV    56670.209 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:   10    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   43 a'      51       |   0.62100      38.6   |
+     |    8 a"      47       |   40 a'      48       |   0.48275      23.3   |
+     |    8 a"      47       |   41 a'      49       |  -0.33517      11.2   |
+     |    8 a"      47       |   45 a'      53       |  -0.22894       5.2   |
+     |    8 a"      47       |   53 a'      61       |  -0.17043       2.9   |
+     |    8 a"      47       |   49 a'      57       |  -0.16559       2.7   |
+     |    8 a"      47       |   48 a'      56       |   0.14215       2.0   |
+     |    8 a"      47       |   46 a'      54       |   0.13880       1.9   |
+     |    8 a"      47       |   42 a'      50       |   0.12740       1.6   |
+     |    7 a"      46       |   40 a'      48       |   0.10484       1.1   |
+     |    8 a"      47       |   58 a'      66       |   0.08589       0.7   |
+     |    8 a"      47       |   62 a'      70       |   0.08002       0.6   |
+     |    8 a"      47       |   54 a'      62       |  -0.07434       0.6   |
+     |    8 a"      47       |   47 a'      55       |   0.07416       0.6   |
+     |    7 a"      46       |   41 a'      49       |  -0.07194       0.5   |
+     |    8 a"      47       |   56 a'      64       |  -0.06932       0.5   |
+     |    8 a"      47       |   50 a'      58       |   0.06663       0.4   |
+     |    5 a"      44       |   43 a'      51       |   0.06538       0.4   |
+     |    8 a"      47       |   65 a'      73       |  -0.06502       0.4   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95433
+
+
+       Energy:     0.2668238 H      7.26064 eV    58561.051 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:   11    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   38 a'      38       |   12 a"     387       |  -0.63772      40.7   |
+     |   38 a'      38       |   13 a"     388       |   0.40651      16.5   |
+     |   38 a'      38       |   16 a"     391       |  -0.39653      15.7   |
+     |   38 a'      38       |    9 a"     384       |   0.34219      11.7   |
+     |   38 a'      38       |   14 a"     389       |   0.27004       7.3   |
+     |   38 a'      38       |   17 a"     392       |   0.15723       2.5   |
+     |   38 a'      38       |   22 a"     397       |   0.09281       0.9   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95252
+
+
+       Energy:     0.2771563 H      7.54181 eV    60828.766 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:   12    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    7 a"      46       |   40 a'      48       |   0.71601      51.3   |
+     |    7 a"      46       |   41 a'      49       |   0.51817      26.8   |
+     |    7 a"      46       |   43 a'      51       |  -0.23019       5.3   |
+     |    7 a"      46       |   45 a'      53       |   0.19023       3.6   |
+     |    7 a"      46       |   42 a'      50       |   0.16324       2.7   |
+     |    7 a"      46       |   56 a'      64       |  -0.13969       2.0   |
+     |    8 a"      47       |   44 a'      52       |   0.09761       1.0   |
+     |    8 a"      47       |   41 a'      49       |   0.08654       0.7   |
+     |    8 a"      47       |   40 a'      48       |  -0.08238       0.7   |
+     |    7 a"      46       |   63 a'      71       |  -0.08121       0.7   |
+     |    7 a"      46       |   60 a'      68       |   0.07789       0.6   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.95297
+
+
+       Energy:     0.2796849 H      7.61061 eV    61383.734 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:   13    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |   39 a'      39       |   13 a"     388       |  -0.38764      15.0   |
+     |   39 a'      39       |   12 a"     387       |   0.36921      13.6   |
+     |   39 a'      39       |   14 a"     389       |  -0.32127      10.3   |
+     |   39 a'      39       |   17 a"     392       |   0.30874       9.5   |
+     |   36 a'      36       |   10 a"     385       |   0.29607       8.8   |
+     |   39 a'      39       |   10 a"     385       |  -0.28781       8.3   |
+     |   37 a'      37       |    9 a"     384       |   0.23318       5.4   |
+     |   37 a'      37       |   12 a"     387       |  -0.21353       4.6   |
+     |   37 a'      37       |   16 a"     391       |  -0.15516       2.4   |
+     |   37 a'      37       |   17 a"     392       |   0.14650       2.1   |
+     |   36 a'      36       |    9 a"     384       |  -0.14525       2.1   |
+     |   39 a'      39       |    9 a"     384       |   0.14476       2.1   |
+     |    8 a"      47       |   44 a'      52       |  -0.13498       1.8   |
+     |   37 a'      37       |   10 a"     385       |  -0.13187       1.7   |
+     |   39 a'      39       |   16 a"     391       |   0.11308       1.3   |
+     |   39 a'      39       |   21 a"     396       |   0.11005       1.2   |
+     |   37 a'      37       |   13 a"     388       |   0.10112       1.0   |
+     |   39 a'      39       |   23 a"     398       |  -0.08113       0.7   |
+     |   39 a'      39       |   11 a"     386       |   0.08016       0.6   |
+     |   39 a'      39       |   18 a"     393       |  -0.07570       0.6   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.93264
+
+
+       Energy:     0.2801829 H      7.62416 eV    61493.028 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:   14    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   44 a'      52       |   0.80816      65.3   |
+     |    8 a"      47       |   47 a'      55       |   0.23675       5.6   |
+     |    8 a"      47       |   42 a'      50       |  -0.20800       4.3   |
+     |    8 a"      47       |   49 a'      57       |   0.19468       3.8   |
+     |    8 a"      47       |   51 a'      59       |  -0.16446       2.7   |
+     |    8 a"      47       |   41 a'      49       |   0.14114       2.0   |
+     |    8 a"      47       |   46 a'      54       |   0.12627       1.6   |
+     |    8 a"      47       |   43 a'      51       |   0.11367       1.3   |
+     |    7 a"      46       |   42 a'      50       |  -0.10426       1.1   |
+     |    5 a"      44       |   44 a'      52       |   0.09597       0.9   |
+     |    8 a"      47       |   45 a'      53       |   0.09308       0.9   |
+     |    8 a"      47       |   58 a'      66       |  -0.07627       0.6   |
+     |    8 a"      47       |   57 a'      65       |  -0.07452       0.6   |
+     |    8 a"      47       |   63 a'      71       |  -0.07204       0.5   |
+     |   39 a'      39       |   12 a"     387       |   0.06181       0.4   |
+     |    8 a"      47       |   60 a'      68       |  -0.06155       0.4   |
+     |   39 a'      39       |   13 a"     388       |  -0.06148       0.4   |
+     |    8 a"      47       |   67 a'      75       |   0.05893       0.3   |
+     |    7 a"      46       |   41 a'      49       |  -0.05775       0.3   |
+     |    8 a"      47       |   40 a'      48       |   0.05563       0.3   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.93277
+
+
+       Energy:     0.2836553 H      7.71865 eV    62255.135 cm-1
+
+     +=======================================================================+
+     | type: RE0                    symmetry: a"              state:   15    |
+     +-----------------------+-----------------------+-----------------------+
+     | occ. orb.  index spin | vir. orb.  index spin |  coeff/|amp|     %    |
+     +=======================+=======================+=======================+
+     |    8 a"      47       |   45 a'      53       |   0.64502      41.6   |
+     |    8 a"      47       |   48 a'      56       |   0.35791      12.8   |
+     |    8 a"      47       |   43 a'      51       |   0.28006       7.8   |
+     |   37 a'      37       |   12 a"     387       |   0.25064       6.3   |
+     |    8 a"      47       |   49 a'      57       |   0.17405       3.0   |
+     |   37 a'      37       |   13 a"     388       |  -0.16962       2.9   |
+     |    8 a"      47       |   42 a'      50       |  -0.14950       2.2   |
+     |   37 a'      37       |   16 a"     391       |   0.14832       2.2   |
+     |    8 a"      47       |   44 a'      52       |  -0.12993       1.7   |
+     |   37 a'      37       |   14 a"     389       |  -0.12021       1.4   |
+     |   37 a'      37       |    9 a"     384       |  -0.11838       1.4   |
+     |   39 a'      39       |   17 a"     392       |   0.11466       1.3   |
+     |   36 a'      36       |   10 a"     385       |   0.11302       1.3   |
+     |    8 a"      47       |   47 a'      55       |  -0.11079       1.2   |
+     |    8 a"      47       |   62 a'      70       |  -0.09904       1.0   |
+     |    8 a"      47       |   50 a'      58       |  -0.08552       0.7   |
+     |    5 a"      44       |   42 a'      50       |   0.07914       0.6   |
+     |    8 a"      47       |   53 a'      61       |   0.07669       0.6   |
+     |    5 a"      44       |   45 a'      53       |   0.07597       0.6   |
+     |   39 a'      39       |   10 a"     385       |  -0.07556       0.6   |
+     +=======================+=======================+=======================+
+     norm of printed elements:  0.91311
+
+
+
+     Info: copy ADC(2) right eigenvectors into left eigenvector files.
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: ADC(2)  
+
+  calculating overlap between   30 left and right vector(s)
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1             2.00            2.07    LE0    RE0 
+         2             2.00            2.05    LE0    RE0 
+         3             2.00            2.07    LE0    RE0 
+         4             2.00            2.05    LE0    RE0 
+         5             2.00            2.07    LE0    RE0 
+         6             2.00            2.05    LE0    RE0 
+         7             2.00            2.05    LE0    RE0 
+         8             2.00            2.05    LE0    RE0 
+         9             2.00            2.08    LE0    RE0 
+        10             2.00            2.07    LE0    RE0 
+        11             2.00            2.07    LE0    RE0 
+        12             2.00            2.07    LE0    RE0 
+        13             2.00            2.05    LE0    RE0 
+        14             2.00            2.06    LE0    RE0 
+        15             2.00            2.05    LE0    RE0 
+        16             1.71            1.77    LE0    RE0 
+        17             1.71            1.76    LE0    RE0 
+        18             1.71            1.78    LE0    RE0 
+        19             1.71            1.77    LE0    RE0 
+        20             1.71            1.77    LE0    RE0 
+        21             1.71            1.79    LE0    RE0 
+        22             1.71            1.93    LE0    RE0 
+        23             1.71            1.80    LE0    RE0 
+        24             1.71            1.79    LE0    RE0 
+        25             1.71            1.77    LE0    RE0 
+        26             1.71            1.77    LE0    RE0 
+        27             1.71            1.78    LE0    RE0 
+        28             1.71            1.77    LE0    RE0 
+        29             1.71            1.77    LE0    RE0 
+        30             1.71            1.76    LE0    RE0 
+   ------------------------------------------------------
+     time in cc_1den       cpu: 55 min 35 s  wall: 57 min 44 s  ratio:  1.0
+
+
+
+     +==========================================================+
+     |   contributions of excitation levels to excited states   |
+     |     wavefunctions as computed from the <L|R> overlap     |
+     +----------------------------------------------------------+
+     | sym | multi | state |    E / eV  | % singles | % doubles |
+     +==========================================================+
+     | a'  |   1   |   1   |    4.07899 |   89.27   |   10.73   |
+     | a'  |   1   |   2   |    4.35397 |   88.27   |   11.73   |
+     | a'  |   1   |   3   |    5.61524 |   88.74   |   11.26   |
+     | a'  |   1   |   4   |    5.88280 |   89.39   |   10.61   |
+     | a'  |   1   |   5   |    6.10797 |   88.54   |   11.46   |
+     | a'  |   1   |   6   |    6.27778 |   89.43   |   10.57   |
+     | a'  |   1   |   7   |    6.90177 |   84.80   |   15.20   |
+     | a'  |   1   |   8   |    7.04168 |   88.62   |   11.38   |
+     | a'  |   1   |   9   |    7.24491 |   88.08   |   11.92   |
+     | a'  |   1   |  10   |    7.31148 |   86.96   |   13.04   |
+     | a'  |   1   |  11   |    7.34417 |   87.02   |   12.98   |
+     | a'  |   1   |  12   |    7.41980 |   88.07   |   11.93   |
+     | a'  |   1   |  13   |    7.65745 |   87.82   |   12.18   |
+     | a'  |   1   |  14   |    7.83846 |   89.23   |   10.77   |
+     | a'  |   1   |  15   |    7.85290 |   87.17   |   12.83   |
+     +-----+-------+-------+------------+-----------+-----------+
+     | a"  |   1   |   1   |    3.78832 |   89.71   |   10.29   |
+     | a"  |   1   |   2   |    4.45309 |   90.10   |    9.90   |
+     | a"  |   1   |   3   |    5.08086 |   89.48   |   10.52   |
+     | a"  |   1   |   4   |    5.83062 |   91.68   |    8.32   |
+     | a"  |   1   |   5   |    5.89894 |   83.20   |   16.80   |
+     | a"  |   1   |   6   |    6.33996 |   84.19   |   15.81   |
+     | a"  |   1   |   7   |    6.37029 |   84.05   |   15.95   |
+     | a"  |   1   |   8   |    6.49105 |   91.36   |    8.64   |
+     | a"  |   1   |   9   |    6.71904 |   91.13   |    8.87   |
+     | a"  |   1   |  10   |    7.02621 |   90.69   |    9.31   |
+     | a"  |   1   |  11   |    7.26064 |   83.29   |   16.71   |
+     | a"  |   1   |  12   |    7.54181 |   91.44   |    8.56   |
+     | a"  |   1   |  13   |    7.61061 |   86.50   |   13.50   |
+     | a"  |   1   |  14   |    7.62416 |   90.80   |    9.20   |
+     | a"  |   1   |  15   |    7.71865 |   89.80   |   10.20   |
+     +==========================================================+
+
+
+
+      The semi-canonical algorithm will be used for densities
+
+
+                    ========   CC DENSITY MODULE   ========
+
+                      current wave-function model: ADC(2)  
+
+  calculating    30 xi densities
+
+   a semicanonical algorithm will be used
+
+    density nr.      cpu/min        wall/min    L     R
+   ------------------------------------------------------
+         1             4.98            5.38    LE0    R0  
+         2             4.98            5.30    LE0    R0  
+         3             4.98            5.32    LE0    R0  
+         4             4.95            5.25    LE0    R0  
+         5             4.98            5.33    LE0    R0  
+         6             5.01            5.31    LE0    R0  
+         7             5.04            5.35    LE0    R0  
+         8             4.95            5.25    LE0    R0  
+         9             5.00            5.31    LE0    R0  
+        10             5.00            5.30    LE0    R0  
+        11             5.04            5.33    LE0    R0  
+        12             4.95            5.25    LE0    R0  
+        13             4.96            5.24    LE0    R0  
+        14             4.96            5.32    LE0    R0  
+        15             4.96            5.26    LE0    R0  
+        16             4.64            4.97    LE0    R0  
+        17             4.62            4.94    LE0    R0  
+        18             4.61            4.94    LE0    R0  
+        19             4.62            4.94    LE0    R0  
+        20             4.64            4.94    LE0    R0  
+        21             4.67            4.98    LE0    R0  
+        22             4.66            4.99    LE0    R0  
+        23             4.62            4.93    LE0    R0  
+        24             4.66            4.96    LE0    R0  
+        25             4.64            4.95    LE0    R0  
+        26             4.64            4.95    LE0    R0  
+        27             4.61            4.93    LE0    R0  
+        28             4.64            4.99    LE0    R0  
+        29             4.65            4.96    LE0    R0  
+        30             4.61            4.94    LE0    R0  
+   ------------------------------------------------------
+     time in cc_1den       cpu:  2 h 24 min  wall:  2 h 33 min  ratio:  0.9
+
+
+ **************************************************************
+ *                                                            *
+ *<<<<<<<<<<<<  ONE-PHOTON ABSORPTION STRENGTHS  >>>>>>>>>>>>>*
+ *                                                            *
+ **************************************************************
+
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    1 a'   1                          |
+  |    frequency :   0.1499000898 a.u.     4.07899 e.V.     32899.3 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.23886260 |      0.23886260 |       0.05705534    |
+     | ydiplen   |     -0.85418923 |     -0.85418923 |       0.72963924    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.03972549 |     -0.03972549 |       0.00157811    |
+     | ydipvel   |     -0.12077419 |      0.12077419 |       0.01458640    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |      0.99395918 |     -0.99395918 |       0.98795485    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.07861706
+       oscillator strength (velocity gauge) :      0.07189019
+       oscillator strength (mixed gauge)    :      0.07510196
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    2 a'   1                          |
+  |    frequency :   0.1600053667 a.u.     4.35397 e.V.     35117.1 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      1.80459280 |      1.80459280 |       3.25655519    |
+     | ydiplen   |      0.73704610 |      0.73704610 |       0.54323695    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.28835484 |     -0.28835484 |       0.08314851    |
+     | ydipvel   |      0.12163531 |     -0.12163531 |       0.01479515    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.28126891 |      0.28126891 |       0.07911220    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.40532476
+       oscillator strength (velocity gauge) :      0.40808491
+       oscillator strength (mixed gauge)    :      0.40667593
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    3 a'   1                          |
+  |    frequency :   0.2063562691 a.u.     5.61524 e.V.     45290.0 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.45469877 |      0.45469877 |       0.20675098    |
+     | ydiplen   |     -0.30014100 |     -0.30014100 |       0.09008462    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.07251908 |     -0.07251908 |       0.00525902    |
+     | ydipvel   |     -0.04826859 |      0.04826859 |       0.00232986    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.91614506 |      0.91614506 |       0.83932178    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.04083592
+       oscillator strength (velocity gauge) :      0.02451706
+       oscillator strength (mixed gauge)    :      0.03164115
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    4 a'   1                          |
+  |    frequency :   0.2161888038 a.u.     5.88280 e.V.     47448.0 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.91592417 |     -0.91592417 |       0.83891708    |
+     | ydiplen   |      0.66330403 |      0.66330403 |       0.43997224    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.18724733 |      0.18724733 |       0.03506156    |
+     | ydipvel   |      0.16499492 |     -0.16499492 |       0.02722332    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.71191025 |      0.71191025 |       0.50681620    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.18432103
+       oscillator strength (velocity gauge) :      0.19206941
+       oscillator strength (mixed gauge)    :      0.18729743
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    5 a'   1                          |
+  |    frequency :   0.2244636096 a.u.     6.10797 e.V.     49264.1 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.03544820 |     -0.03544820 |       0.00125657    |
+     | ydiplen   |      1.05097121 |      1.05097121 |       1.10454049    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.01427576 |      0.01427576 |       0.00020380    |
+     | ydipvel   |      0.21889026 |     -0.21889026 |       0.04791295    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -1.17899624 |      1.17899624 |       1.39003214    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.16547413
+       oscillator strength (velocity gauge) :      0.14290882
+       oscillator strength (mixed gauge)    :      0.15370228
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    6 a'   1                          |
+  |    frequency :   0.2307040663 a.u.     6.27778 e.V.     50633.7 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      1.82965687 |      1.82965687 |       3.34764427    |
+     | ydiplen   |      0.01479682 |      0.01479682 |       0.00021895    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.39503860 |     -0.39503860 |       0.15605550    |
+     | ydipvel   |     -0.00341142 |      0.00341142 |       0.00001164    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.25835920 |      0.25835920 |       0.06674948    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.51491044
+       oscillator strength (velocity gauge) :      0.45098797
+       oscillator strength (mixed gauge)    :      0.48182308
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    7 a'   1                          |
+  |    frequency :   0.2536354151 a.u.     6.90177 e.V.     55666.5 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.15400932 |      0.15400932 |       0.02371887    |
+     | ydiplen   |     -0.13418905 |     -0.13418905 |       0.01800670    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.02047568 |     -0.02047568 |       0.00041925    |
+     | ydipvel   |     -0.03896005 |      0.03896005 |       0.00151789    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |      0.12524126 |     -0.12524126 |       0.01568537    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00705539
+       oscillator strength (velocity gauge) :      0.00509166
+       oscillator strength (mixed gauge)    :      0.00558764
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    8 a'   1                          |
+  |    frequency :   0.2587770277 a.u.     7.04168 e.V.     56795.0 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.42309991 |     -0.42309991 |       0.17901353    |
+     | ydiplen   |      0.09437184 |      0.09437184 |       0.00890604    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.12543213 |      0.12543213 |       0.01573322    |
+     | ydipvel   |      0.01830128 |     -0.01830128 |       0.00033494    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |      0.17383990 |     -0.17383990 |       0.03022031    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.03241951
+       oscillator strength (velocity gauge) :      0.04139511
+       oscillator strength (mixed gauge)    :      0.03653163
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    9 a'   1                          |
+  |    frequency :   0.2662456701 a.u.     7.24491 e.V.     58434.2 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.23631058 |     -0.23631058 |       0.05584269    |
+     | ydiplen   |     -0.48295305 |     -0.48295305 |       0.23324365    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.05264493 |      0.05264493 |       0.00277149    |
+     | ydipvel   |     -0.15824855 |      0.15824855 |       0.02504260    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -1.04989162 |      1.04989162 |       1.10227242    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.05131199
+       oscillator strength (velocity gauge) :      0.06964518
+       oscillator strength (mixed gauge)    :      0.05924478
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   10 a'   1                          |
+  |    frequency :   0.2686917815 a.u.     7.31148 e.V.     58971.0 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.38806646 |      0.38806646 |       0.15059558    |
+     | ydiplen   |     -0.02884823 |     -0.02884823 |       0.00083222    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.12368368 |     -0.12368368 |       0.01529765    |
+     | ydipvel   |      0.01715170 |     -0.01715170 |       0.00029418    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.05643430 |      0.05643430 |       0.00318483    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.02712494
+       oscillator strength (velocity gauge) :      0.03868579
+       oscillator strength (mixed gauge)    :      0.03166846
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   11 a'   1                          |
+  |    frequency :   0.2698933271 a.u.     7.34417 e.V.     59234.7 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.24863934 |     -0.24863934 |       0.06182152    |
+     | ydiplen   |      0.07118329 |      0.07118329 |       0.00506706    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.08433109 |      0.08433109 |       0.00711173    |
+     | ydipvel   |      0.02410271 |     -0.02410271 |       0.00058094    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -1.38207393 |      1.38207393 |       1.91012834    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.01203519
+       oscillator strength (velocity gauge) :      0.01900176
+       oscillator strength (mixed gauge)    :      0.01512249
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   12 a'   1                          |
+  |    frequency :   0.2726725878 a.u.     7.41980 e.V.     59844.7 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.12837977 |      0.12837977 |       0.01648136    |
+     | ydiplen   |      0.11926277 |      0.11926277 |       0.01422361    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.04178479 |     -0.04178479 |       0.00174597    |
+     | ydipvel   |      0.05306375 |     -0.05306375 |       0.00281576    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |      0.58541264 |     -0.58541264 |       0.34270796    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00558160
+       oscillator strength (velocity gauge) :      0.01115313
+       oscillator strength (mixed gauge)    :      0.00779523
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   13 a'   1                          |
+  |    frequency :   0.2814062475 a.u.     7.65745 e.V.     61761.5 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.66595586 |      0.66595586 |       0.44349721    |
+     | ydiplen   |     -0.42297811 |     -0.42297811 |       0.17891048    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |      0.16983124 |     -0.16983124 |       0.02884265    |
+     | ydipvel   |     -0.12286487 |      0.12286487 |       0.01509578    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.53319694 |      0.53319694 |       0.28429897    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.11676628
+       oscillator strength (velocity gauge) :      0.10409251
+       oscillator strength (mixed gauge)    :      0.11004617
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   14 a'   1                          |
+  |    frequency :   0.2880580380 a.u.     7.83846 e.V.     63221.4 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.30683017 |     -0.30683017 |       0.09414475    |
+     | ydiplen   |      1.01535262 |      1.01535262 |       1.03094094    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.07838339 |      0.07838339 |       0.00614396    |
+     | ydipvel   |      0.27449443 |     -0.27449443 |       0.07534719    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.29608657 |      0.29608657 |       0.08766726    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.21605999
+       oscillator strength (velocity gauge) :      0.18859891
+       oscillator strength (mixed gauge)    :      0.20183935
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   15 a'   1                          |
+  |    frequency :   0.2885886050 a.u.     7.85290 e.V.     63337.9 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |     -0.40375741 |     -0.40375741 |       0.16302004    |
+     | ydiplen   |     -0.18369913 |     -0.18369913 |       0.03374537    |
+     | zdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xdipvel   |     -0.12715440 |      0.12715440 |       0.01616824    |
+     | ydipvel   |     -0.06311536 |      0.06311536 |       0.00398355    |
+     | zdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | xangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | yangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zangmom   |     -0.05721123 |      0.05721123 |       0.00327313    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.03785617
+       oscillator strength (velocity gauge) :      0.04655252
+       oscillator strength (mixed gauge)    :      0.04195585
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    1 a"   1                          |
+  |    frequency :   0.1392180761 a.u.     3.78832 e.V.     30554.8 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |      0.00009891 |      0.00009891 |       0.00000001    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00007189 |      0.00007189 |       0.00000001    |
+     | xangmom   |      0.50884962 |     -0.50884962 |       0.25892794    |
+     | yangmom   |      0.23373574 |     -0.23373574 |       0.05463240    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00000000
+       oscillator strength (velocity gauge) :      0.00000002
+       oscillator strength (mixed gauge)    :      0.00000000
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    2 a"   1                          |
+  |    frequency :   0.1636480339 a.u.     4.45309 e.V.     35916.6 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.06477756 |     -0.06477756 |       0.00419613    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.01458833 |      0.01458833 |       0.00021282    |
+     | xangmom   |      0.44265402 |     -0.44265402 |       0.19594258    |
+     | yangmom   |     -1.04806358 |      1.04806358 |       1.09843726    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00045779
+       oscillator strength (velocity gauge) :      0.00086698
+       oscillator strength (mixed gauge)    :      0.00063000
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    3 a"   1                          |
+  |    frequency :   0.1867181055 a.u.     5.08086 e.V.     40979.9 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.00662173 |     -0.00662173 |       0.00004385    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00677448 |      0.00677448 |       0.00004589    |
+     | xangmom   |      0.60224652 |     -0.60224652 |       0.36270087    |
+     | yangmom   |      0.15634496 |     -0.15634496 |       0.02444375    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00000546
+       oscillator strength (velocity gauge) :      0.00016386
+       oscillator strength (mixed gauge)    :      0.00002991
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    4 a"   1                          |
+  |    frequency :   0.2142715243 a.u.     5.83062 e.V.     47027.2 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |      0.05858479 |      0.05858479 |       0.00343218    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |      0.02493419 |     -0.02493419 |       0.00062171    |
+     | xangmom   |      0.03917925 |     -0.03917925 |       0.00153501    |
+     | yangmom   |     -0.40424991 |      0.40424991 |       0.16341799    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00049028
+       oscillator strength (velocity gauge) :      0.00193435
+       oscillator strength (mixed gauge)    :      0.00097384
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    5 a"   1                          |
+  |    frequency :   0.2167819653 a.u.     5.89894 e.V.     47578.1 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.02098200 |     -0.02098200 |       0.00044024    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00787008 |      0.00787008 |       0.00006194    |
+     | xangmom   |      0.02239561 |     -0.02239561 |       0.00050156    |
+     | yangmom   |     -0.06808380 |      0.06808380 |       0.00463540    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00006362
+       oscillator strength (velocity gauge) :      0.00019048
+       oscillator strength (mixed gauge)    :      0.00011009
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    6 a"   1                          |
+  |    frequency :   0.2329891709 a.u.     6.33996 e.V.     51135.2 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.01154942 |     -0.01154942 |       0.00013339    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00269031 |      0.00269031 |       0.00000724    |
+     | xangmom   |     -0.11437419 |      0.11437419 |       0.01308145    |
+     | yangmom   |     -0.04136028 |      0.04136028 |       0.00171067    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00002072
+       oscillator strength (velocity gauge) :      0.00002071
+       oscillator strength (mixed gauge)    :      0.00002071
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    7 a"   1                          |
+  |    frequency :   0.2341037455 a.u.     6.37029 e.V.     51379.8 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |      0.00014757 |      0.00014757 |       0.00000002    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00099671 |      0.00099671 |       0.00000099    |
+     | xangmom   |      0.15163263 |     -0.15163263 |       0.02299246    |
+     | yangmom   |      0.00004295 |     -0.00004295 |       0.00000000    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00000000
+       oscillator strength (velocity gauge) :      0.00000283
+       oscillator strength (mixed gauge)    :      0.00000010
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    8 a"   1                          |
+  |    frequency :   0.2385416936 a.u.     6.49105 e.V.     52353.9 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.04641172 |     -0.04641172 |       0.00215405    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.01063850 |      0.01063850 |       0.00011318    |
+     | xangmom   |     -0.16635706 |      0.16635706 |       0.02767467    |
+     | yangmom   |      0.20160190 |     -0.20160190 |       0.04064333    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00034255
+       oscillator strength (velocity gauge) :      0.00031630
+       oscillator strength (mixed gauge)    :      0.00032917
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:    9 a"   1                          |
+  |    frequency :   0.2469200663 a.u.     6.71904 e.V.     54192.7 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.23869690 |     -0.23869690 |       0.05697621    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.06555948 |      0.06555948 |       0.00429805    |
+     | xangmom   |     -0.37218947 |      0.37218947 |       0.13852500    |
+     | yangmom   |      0.44018305 |     -0.44018305 |       0.19376112    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00937905
+       oscillator strength (velocity gauge) :      0.01160442
+       oscillator strength (mixed gauge)    :      0.01043256
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   10 a"   1                          |
+  |    frequency :   0.2582084697 a.u.     7.02621 e.V.     56670.2 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |      0.01587441 |      0.01587441 |       0.00025200    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |      0.00064864 |     -0.00064864 |       0.00000042    |
+     | xangmom   |     -0.06832044 |      0.06832044 |       0.00466768    |
+     | yangmom   |     -0.03960760 |      0.03960760 |       0.00156876    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00004338
+       oscillator strength (velocity gauge) :      0.00000109
+       oscillator strength (mixed gauge)    :      0.00000686
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   11 a"   1                          |
+  |    frequency :   0.2668237842 a.u.     7.26064 e.V.     58561.1 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.00901839 |     -0.00901839 |       0.00008133    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00336312 |      0.00336312 |       0.00001131    |
+     | xangmom   |     -0.14744371 |      0.14744371 |       0.02173965    |
+     | yangmom   |     -0.07734827 |      0.07734827 |       0.00598276    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00001447
+       oscillator strength (velocity gauge) :      0.00002826
+       oscillator strength (mixed gauge)    :      0.00002022
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   12 a"   1                          |
+  |    frequency :   0.2771562529 a.u.     7.54181 e.V.     60828.8 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |      0.12151221 |      0.12151221 |       0.01476522    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |      0.03426539 |     -0.03426539 |       0.00117412    |
+     | xangmom   |      0.60163351 |     -0.60163351 |       0.36196288    |
+     | yangmom   |      0.14409588 |     -0.14409588 |       0.02076362    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00272818
+       oscillator strength (velocity gauge) :      0.00282420
+       oscillator strength (mixed gauge)    :      0.00277578
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   13 a"   1                          |
+  |    frequency :   0.2796848715 a.u.     7.61061 e.V.     61383.7 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.03217655 |     -0.03217655 |       0.00103533    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00454995 |      0.00454995 |       0.00002070    |
+     | xangmom   |      0.19209961 |     -0.19209961 |       0.03690226    |
+     | yangmom   |      0.35817692 |     -0.35817692 |       0.12829070    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00019304
+       oscillator strength (velocity gauge) :      0.00004935
+       oscillator strength (mixed gauge)    :      0.00009760
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   14 a"   1                          |
+  |    frequency :   0.2801828510 a.u.     7.62416 e.V.     61493.0 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.03062464 |     -0.03062464 |       0.00093787    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.00692732 |      0.00692732 |       0.00004799    |
+     | xangmom   |     -0.08261550 |      0.08261550 |       0.00682532    |
+     | yangmom   |     -0.08563019 |      0.08563019 |       0.00733253    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.00017518
+       oscillator strength (velocity gauge) :      0.00011418
+       oscillator strength (mixed gauge)    :      0.00014143
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+
+
+  +=========================================================================+
+  |  Transition                                             model: ADC(2)   |
+  |    number, symmetry, multiplicity:   15 a"   1                          |
+  |    frequency :   0.2836552665 a.u.     7.71865 e.V.     62255.1 rcm     |
+  +=========================================================================+
+
+     +-----------+-----------------+-----------------+---------------------+
+     | operator  |   left moment   |  right moment   | transition strength |
+     +-----------+-----------------+-----------------+---------------------+
+     | xdiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydiplen   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdiplen   |     -0.26439627 |     -0.26439627 |       0.06990539    |
+     | xdipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | ydipvel   |      0.00000000 |      0.00000000 |       0.00000000    |
+     | zdipvel   |     -0.07321369 |      0.07321369 |       0.00536024    |
+     | xangmom   |      0.02207832 |     -0.02207832 |       0.00048745    |
+     | yangmom   |     -0.26986048 |      0.26986048 |       0.07282468    |
+     | zangmom   |      0.00000000 |      0.00000000 |       0.00000000    |
+     +-----------+-----------------+-----------------+---------------------+
+ 
+       oscillator strength (length gauge)   :      0.01321935
+       oscillator strength (velocity gauge) :      0.01259803
+       oscillator strength (mixed gauge)    :      0.01290495
+ 
+       rotator strength (length gauge)      :      0.00000000 a.u.
+       Rotator strength (length gauge)      :      0.00000000 10^(-40)*erg*cm^3
+       rotator strength (velocity gauge)    :      0.00000000 a.u.
+       Rotator strength (velocity gauge)    :      0.00000000 10^(-40)*erg*cm^3
+ 
+ Exporting transition densities
+
+
+    ------------------------------------------------------------------------
+         total  cpu-time :   1 days  8 hours 37 minutes and 15 seconds
+         total wall-time :   1 days 16 hours 36 minutes and  0 seconds
+    ------------------------------------------------------------------------
+
+
+   ****  ricc2 : all done  ****
+
+
+    2023-03-02 03:20:36.629 
+
