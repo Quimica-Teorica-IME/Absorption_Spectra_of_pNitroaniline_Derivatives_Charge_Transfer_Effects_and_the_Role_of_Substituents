@@ -1,0 +1,17 @@
+ operating system is UNIX !
+ hostname is         dlt06.abaxnet
+
+ data group $actual step is not empty 
+ due to the abend of ricc2
+
+
+ this is only a subsequent error message
+ check reason for abend in the other output files ...
+
+ use the command  'actual -r'  to get rid of that 
+
+ 
+ MODTRACE: no modules on stack
+
+  CONTRL dead = actual step 
+ dscf ended abnormally
